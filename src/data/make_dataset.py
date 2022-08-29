@@ -3,7 +3,7 @@ import requests
 import warnings
 import pandas as pd
 
-from src import RAW_DATA_DIR, TRIPLE_STORE_URL, SIMCOMP_HOST
+from src import TRIPLE_STORE_URL, SIMCOMP_HOST, PROCESSED_DATA_DIR, RAW_DATA_DIR
 from src.data.sparql.queries import COMPARISONS_CONTRIBUTINOS_AND_THEIR_PAPERS
 from src.data.sparql.service import query
 from src.util.io import Writer
@@ -198,8 +198,8 @@ def main():
     for comparison in comparisons:
         comparisons_predicates[comparison['id']] = comparison['predicates']
 
-    Writer.write_json({'comparisons': comparisons}, os.path.join(RAW_DATA_DIR, 'data.json'))
-    Writer.write_json(comparisons_predicates, os.path.join(RAW_DATA_DIR, 'comparison_predicates.json'))
+    Writer.write_json({'comparisons': comparisons}, os.path.join(PROCESSED_DATA_DIR, 'dataset.json'))
+    Writer.write_json(comparisons_predicates, os.path.join(PROCESSED_DATA_DIR, 'comparison_predicates.json'))
 
     return {'comparisons': comparisons}
 
