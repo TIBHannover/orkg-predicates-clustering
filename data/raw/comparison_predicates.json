@@ -609,7 +609,7 @@
             "label": "utilities in crowdre;media/channel"
         },
         {
-            "id": "P36057;P4012",
+            "id": "P36057;P23139",
             "label": "utilities in crowdre;type"
         },
         {
@@ -619,6 +619,10 @@
         {
             "id": "P36057;P37596",
             "label": "utilities in crowdre;complexity"
+        },
+        {
+            "id": "P36057;P4012",
+            "label": "utilities in crowdre;type"
         }
     ],
     "R12250": [
@@ -1607,11 +1611,11 @@
             "label": "has subject domain"
         },
         {
-            "id": "P41268",
+            "id": "P41282",
             "label": "material"
         },
         {
-            "id": "P41269",
+            "id": "P41312",
             "label": "process"
         },
         {
@@ -13331,7 +13335,7 @@
             "label": "result;has unit"
         },
         {
-            "id": "P37524",
+            "id": "P27022",
             "label": "study location"
         },
         {
@@ -16207,6 +16211,144 @@
         {
             "id": "P39099;P59109",
             "label": "threat to validity;reliability"
+        }
+    ],
+    "R212902": [
+        {
+            "id": "P4053",
+            "label": "is about"
+        },
+        {
+            "id": "P4053;P68038",
+            "label": "is about;associated in project"
+        },
+        {
+            "id": "P4053;P68037",
+            "label": "is about;dbpedia archivo status"
+        },
+        {
+            "id": "P4053;P58056",
+            "label": "is about;has domain"
+        },
+        {
+            "id": "P4053;HAS_EVALUATION",
+            "label": "is about;has evaluation"
+        },
+        {
+            "id": "P4053;P57101",
+            "label": "is about;has number of classes"
+        },
+        {
+            "id": "P4053;P58048",
+            "label": "is about;has number of instances"
+        },
+        {
+            "id": "P4053;P68027",
+            "label": "is about;has serialization"
+        },
+        {
+            "id": "P4053;P68027;SAME_AS",
+            "label": "is about;has serialization;same as"
+        },
+        {
+            "id": "P4053;P4059",
+            "label": "is about;has url"
+        },
+        {
+            "id": "P4053;P68034",
+            "label": "is about;number of data properties"
+        },
+        {
+            "id": "P4053;P68036",
+            "label": "is about;number of disjoint classes"
+        },
+        {
+            "id": "P4053;P68035",
+            "label": "is about;number of equivalent classes"
+        },
+        {
+            "id": "P4053;P68033",
+            "label": "is about;number of object properties"
+        },
+        {
+            "id": "P4053;P58055",
+            "label": "is about;online accessible"
+        },
+        {
+            "id": "P4053;P68028",
+            "label": "is about;reused ontologies"
+        },
+        {
+            "id": "P4053;P68028;P68037",
+            "label": "is about;reused ontologies;dbpedia archivo status"
+        },
+        {
+            "id": "P4053;P68028;P58056",
+            "label": "is about;reused ontologies;has domain"
+        },
+        {
+            "id": "P4053;P68028;P58056;SAME_AS",
+            "label": "is about;reused ontologies;has domain;same as"
+        },
+        {
+            "id": "P4053;P68028;HAS_EVALUATION",
+            "label": "is about;reused ontologies;has evaluation"
+        },
+        {
+            "id": "P4053;P68028;P57101",
+            "label": "is about;reused ontologies;has number of classes"
+        },
+        {
+            "id": "P4053;P68028;P58048",
+            "label": "is about;reused ontologies;has number of instances"
+        },
+        {
+            "id": "P4053;P68028;P68027",
+            "label": "is about;reused ontologies;has serialization"
+        },
+        {
+            "id": "P4053;P68028;P4059",
+            "label": "is about;reused ontologies;has url"
+        },
+        {
+            "id": "P4053;P68028;P68034",
+            "label": "is about;reused ontologies;number of data properties"
+        },
+        {
+            "id": "P4053;P68028;P68036",
+            "label": "is about;reused ontologies;number of disjoint classes"
+        },
+        {
+            "id": "P4053;P68028;P68035",
+            "label": "is about;reused ontologies;number of equivalent classes"
+        },
+        {
+            "id": "P4053;P68028;P68033",
+            "label": "is about;reused ontologies;number of object properties"
+        },
+        {
+            "id": "P4053;P68028;P58055",
+            "label": "is about;reused ontologies;online accessible"
+        },
+        {
+            "id": "P4053;P68028;P68028",
+            "label": "is about;reused ontologies;reused ontologies"
+        },
+        {
+            "id": "P4053;P68030",
+            "label": "is about;associated project"
+        },
+        {
+            "id": "P4053;P58056;P34062",
+            "label": "is about;has domain;concept types"
+        },
+        {
+            "id": "P4053;P58056;SAME_AS",
+            "label": "is about;has domain;same as"
+        },
+        {
+            "id": "P4053;HAS_EVALUATION;SAME_AS",
+            "label": "is about;has evaluation;same as"
         }
     ],
     "R25093": [

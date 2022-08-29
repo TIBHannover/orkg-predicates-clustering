@@ -1,5 +1,6 @@
 import os
 import requests
+import warnings
 import pandas as pd
 
 from src import RAW_DATA_DIR, TRIPLE_STORE_URL, SIMCOMP_HOST
@@ -42,7 +43,7 @@ def to_json(df, papers_dump):
                     },
                     'research_problems': comparison_df[
                                              comparison_df.paper == paper_id
-                                         ].loc[:, research_problem_columns.values()]
+                                             ].loc[:, research_problem_columns.values()].drop_duplicates()
                     .to_dict(orient='records'),
                     'abstract': papers_dump[papers_dump.uri == id_to_uri(paper_id)].processed_abstract.iloc[0]
                 }
@@ -54,9 +55,19 @@ def to_json(df, papers_dump):
 
         comparisons.append(comparison_json)
 
-    # filtering based on n_papers per comparison #
+    # filtering based on n_papers per comparison and paper labels
     filtered_comparisons = []
     for comparison in comparisons:
+
+        filtered_papers = []
+        paper_labels = []
+        for paper in comparison['papers']:
+            if paper['label'] not in paper_labels:
+                filtered_papers.append(paper)
+                paper_labels.append(paper['label'])
+
+        comparison['papers'] = filtered_papers
+
         if len(comparison['papers']) >= PAPERS_PER_COMPARISON_THRESHOLD:
             filtered_comparisons.append(comparison)
 
@@ -117,6 +128,58 @@ def compare_simcomp(contribution_ids):
     return response.json()
 
 
+def verify(comparison):
+    comparison_ids = []
+    papers_ids_are_unique_per_comparison = []
+    papers_labels_are_unique_per_comparison = []
+    overall_paper_ids = []
+    number_of_papers_per_comparison = []
+    predicates_ids_are_unique_per_comparison = []
+    predicates_labels_are_unique_per_comparison = []
+    for comparison in comparison:
+        comparison_ids.append(comparison['id'])
+        number_of_papers_per_comparison.append(len(comparison['papers']))
+
+        paper_ids = []
+        paper_labels = []
+        for paper in comparison['papers']:
+            paper_ids.append(paper['id'])
+            paper_labels.append(paper['label'])
+
+        predicate_ids = []
+        predicate_labels = []
+        for predicate in comparison['predicates']:
+            predicate_ids.append(predicate['id'])
+            predicate_labels.append(predicate['label'])
+
+        overall_paper_ids.extend(paper_ids)
+        papers_ids_are_unique_per_comparison.append(len(paper_ids) == len(list(set(paper_ids))))
+        papers_labels_are_unique_per_comparison.append(len(paper_labels) == len(list(set(paper_labels))))
+        predicates_ids_are_unique_per_comparison.append(len(predicate_ids) == len(list(set(predicate_ids))))
+        predicates_labels_are_unique_per_comparison.append(len(predicate_labels) == len(list(set(predicate_labels))))
+
+    if not len(comparison_ids) == len(set(comparison_ids)):
+        warnings.warn('Comparisons are not unique')
+
+    if False in papers_ids_are_unique_per_comparison:
+        warnings.warn('Paper IDS per comparisons must be unique')
+
+    if False in papers_labels_are_unique_per_comparison:
+        warnings.warn('Paper labels per comparisons must be unique')
+
+    if not all(element >= PAPERS_PER_COMPARISON_THRESHOLD for element in number_of_papers_per_comparison):
+        warnings.warn('Each comparison must at least have {} papers'.format(PAPERS_PER_COMPARISON_THRESHOLD))
+
+    if False in predicates_ids_are_unique_per_comparison:
+        warnings.warn('Predicate IDs per comparisons must be unique')
+
+    if False in predicates_labels_are_unique_per_comparison:
+        warnings.warn('Predicates labels per comparisons must be unique')
+
+    if not len(overall_paper_ids) == len(set(overall_paper_ids)):
+        warnings.warn('Overall paper IDs are not unique')
+
+
 def main():
     # TODO: automatically download the orkg_papers dump
     papers_dump = pd.read_csv(os.path.join(RAW_DATA_DIR, 'orkg_papers.csv')).fillna('')
@@ -129,7 +192,7 @@ def main():
     comparisons = to_json(df, papers_dump)
     comparisons = extend_to_predicates(comparisons)
 
-    print('Verify:')
+    verify(comparisons)
 
     comparisons_predicates = {}
     for comparison in comparisons:
