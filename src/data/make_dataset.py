@@ -174,7 +174,7 @@ def verify(comparison):
         warnings.warn('Predicate IDs per comparisons must be unique')
 
     if False in predicates_labels_are_unique_per_comparison:
-        warnings.warn('Predicates labels per comparisons must be unique')
+        warnings.warn('Predicates labels per comparisons are not unique')
 
     if not len(overall_paper_ids) == len(set(overall_paper_ids)):
         warnings.warn('Overall paper IDs are not unique')

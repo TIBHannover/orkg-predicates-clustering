@@ -313,80 +313,6 @@
             "label": "study area;mineralogy"
         }
     ],
-    "R109041": [
-        {
-            "id": "P37247",
-            "label": "p_gases"
-        },
-        {
-            "id": "P37244",
-            "label": "p_ne_1[cm-3]"
-        },
-        {
-            "id": "P37245",
-            "label": "p_ne_2[cm-3]"
-        },
-        {
-            "id": "P37248",
-            "label": "p_pressure_1[pa]"
-        },
-        {
-            "id": "P37249",
-            "label": "p_pressure_2[pa]"
-        },
-        {
-            "id": "P37250",
-            "label": "p_te_1[ev]"
-        },
-        {
-            "id": "P37251",
-            "label": "p_te_2[ev]"
-        },
-        {
-            "id": "P37235",
-            "label": "paper:journal"
-        },
-        {
-            "id": "P37243",
-            "label": "plasma_type"
-        },
-        {
-            "id": "P32",
-            "label": "research problem"
-        },
-        {
-            "id": "P37236",
-            "label": "research_target"
-        },
-        {
-            "id": "P37241",
-            "label": "vuvspec_calibration[y/n]"
-        },
-        {
-            "id": "P37242",
-            "label": "vuvspec_calibrationmode"
-        },
-        {
-            "id": "P37240",
-            "label": "vuvspec_collection"
-        },
-        {
-            "id": "P37239",
-            "label": "vuvspec_detector"
-        },
-        {
-            "id": "P37255",
-            "label": "vuvspec_irradiance (s^-1 x cm^-2) x 10^15"
-        },
-        {
-            "id": "P37237",
-            "label": "vuvspec_wllow[nm]"
-        },
-        {
-            "id": "P37238",
-            "label": "vuvspec_wlup[nm]"
-        }
-    ],
     "R109612": [
         {
             "id": "P37319",
@@ -1535,7 +1461,7 @@
     ],
     "R140131": [
         {
-            "id": "P41311",
+            "id": "P41295",
             "label": "data"
         },
         {
@@ -1615,7 +1541,7 @@
             "label": "material"
         },
         {
-            "id": "P41312",
+            "id": "P41296",
             "label": "process"
         },
         {
@@ -4207,6 +4133,10 @@
         {
             "id": "P34062;P34594",
             "label": "concept types;number of entities"
+        },
+        {
+            "id": "P34062;SAME_AS;P14",
+            "label": "concept types;same as;description"
         },
         {
             "id": "P34062;SAME_AS;SAME_AS;P14",
@@ -13335,7 +13265,7 @@
             "label": "result;has unit"
         },
         {
-            "id": "P27022",
+            "id": "P37524",
             "label": "study location"
         },
         {

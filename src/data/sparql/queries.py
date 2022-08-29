@@ -34,6 +34,8 @@ SELECT DISTINCT ?comparison ?comparison_label
             WHERE {{
                ?comparison rdf:type orkgc:Comparison ;
                          orkgp:compareContribution ?contribution .
+               ?contribution rdf:type orkgc:Contribution .
+               ?paper orkgp:P31 ?contribution .
                
                FILTER (?comparison NOT IN ({}))
             }}
@@ -43,3 +45,15 @@ SELECT DISTINCT ?comparison ?comparison_label
           
         }}
 ORDER BY ?comparison""".format(blacklist, n_contributions)
+
+
+def PAPER_CONTRIBUTIONS(paper_id):
+    return """PREFIX orkgp: <http://orkg.org/orkg/predicate/>
+            PREFIX orkgc: <http://orkg.org/orkg/class/>
+            PREFIX orkgr: <http://orkg.org/orkg/resource/>
+
+            SELECT DISTINCT ?contribution
+                    WHERE {{
+                           orkgr:{} orkgp:P31 ?contribution .  
+                    }}
+            """.format(paper_id)
