@@ -85,48 +85,51 @@ def statistics(dataset, training_set, test_set):
 
     training_comparison_ids = [instance['comparison_id'] for instance in training_set['instances']]
     training_paper_ids = [instance['paper_id'] for instance in training_set['instances']]
-    training_contribution_ids = flatten([instance['contribution_ids'] for instance in training_set['instances'] if 'contribution_ids' in instance])
+    training_contribution_ids = flatten(
+        [instance['contribution_ids'] for instance in training_set['instances'] if 'contribution_ids' in instance])
 
     test_comparison_ids = [instance['comparison_id'] for instance in test_set['instances']]
     test_paper_ids = [instance['paper_id'] for instance in test_set['instances']]
-    test_contribution_ids = flatten([instance['contribution_ids'] for instance in test_set['instances'] if 'contribution_ids' in instance])
+    test_contribution_ids = flatten(
+        [instance['contribution_ids'] for instance in test_set['instances'] if 'contribution_ids' in instance])
 
-    print('### Data Splitting Statistics ###')
-    print('Dataset:\n'
-          '\tPapers: {}\n'
-          '\tDistinct Papers: {}\n'
-          '\tContributions: {}\n'
-          '\tDistinct Contributions: {}\n'
-          '\tComparisons: {} '
-          .format(len(dataset_paper_ids),
-                  len(list(set(dataset_paper_ids))),
-                  len(dataset_contributions_ids),
-                  len(list(set(dataset_contributions_ids))),
-                  len(set(dataset_comparison_ids))))
+    dataset_statistics = 'Dataset:\n' \
+                         '\tPapers: {}\n' \
+                         '\tDistinct Papers: {}\n' \
+                         '\tContributions: {}\n' \
+                         '\tDistinct Contributions: {}\n' \
+                         '\tComparisons: {}\n'.format(len(dataset_paper_ids),
+                                                      len(list(set(dataset_paper_ids))),
+                                                      len(dataset_contributions_ids),
+                                                      len(list(set(dataset_contributions_ids))),
+                                                      len(set(dataset_comparison_ids)))
 
-    print('Training:\n'
-          '\tPapers: {}\n'
-          '\tDistinct Papers: {}\n'
-          '\tContributions: {}\n'
-          '\tDistinct Contributions: {}\n'
-          '\tComparisons: {} '
-          .format(len(training_paper_ids),
-                  len(list(set(training_paper_ids))),
-                  len(training_contribution_ids),
-                  len(list(set(training_contribution_ids))),
-                  len(set(training_comparison_ids))))
+    training_set_statistics = 'Training:\n' \
+                              '\tPapers: {}\n' \
+                              '\tDistinct Papers: {}\n' \
+                              '\tContributions: {}\n' \
+                              '\tDistinct Contributions: {}\n' \
+                              '\tComparisons: {}\n'.format(len(training_paper_ids),
+                                                           len(list(set(training_paper_ids))),
+                                                           len(training_contribution_ids),
+                                                           len(list(set(training_contribution_ids))),
+                                                           len(set(training_comparison_ids)))
 
-    print('Test:\n'
-          '\tPapers: {}\n'
-          '\tDistinct Papers: {}\n'
-          '\tContributions: {}\n'
-          '\tDistinct Contributions: {}\n'
-          '\tComparisons: {}'
-          .format(len(test_set['instances']),
-                  len(list(set(test_paper_ids))),
-                  len(test_contribution_ids),
-                  len(list(set(test_contribution_ids))),
-                  len(set(test_comparison_ids))))
+    test_set_statistics = 'Test:\n' \
+                          '\tPapers: {}\n' \
+                          '\tDistinct Papers: {}\n' \
+                          '\tContributions: {}\n' \
+                          '\tDistinct Contributions: {}\n' \
+                          '\tComparisons: {}\n'.format(len(test_set['instances']),
+                                                       len(list(set(test_paper_ids))),
+                                                       len(test_contribution_ids),
+                                                       len(list(set(test_contribution_ids))),
+                                                       len(set(test_comparison_ids)))
+
+    Writer.write_txt(
+        dataset_statistics + training_set_statistics + test_set_statistics,
+        os.path.join(PROCESSED_DATA_DIR, 'split_statistics.txt')
+    )
 
 
 def main(dataset):
@@ -136,7 +139,6 @@ def main(dataset):
     Writer.write_json(test_set, os.path.join(PROCESSED_DATA_DIR, 'test_set.json'))
 
     verify(training_set, test_set)
-    print('\n----------------------\n')
     statistics(dataset, training_set, test_set)
 
 
