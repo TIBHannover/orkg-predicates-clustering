@@ -27,6 +27,12 @@ class Writer:
     def write_png(image, output_path):
         image.save(output_path)
 
+    @staticmethod
+    @validate_path
+    def write_txt(data, output_path):
+        with open(output_path, 'w') as file:
+            file.write(data)
+
 
 class Reader:
 
