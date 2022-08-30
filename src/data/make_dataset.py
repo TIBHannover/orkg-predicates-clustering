@@ -199,7 +199,7 @@ def main():
         comparisons_predicates[comparison['id']] = comparison['predicates']
 
     Writer.write_json({'comparisons': comparisons}, os.path.join(PROCESSED_DATA_DIR, 'dataset.json'))
-    Writer.write_json(comparisons_predicates, os.path.join(PROCESSED_DATA_DIR, 'comparison_predicates.json'))
+    Writer.write_json(comparisons_predicates, os.path.join(PROCESSED_DATA_DIR, 'mapping.json'))
 
     return {'comparisons': comparisons}
 
