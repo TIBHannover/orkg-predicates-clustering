@@ -1,4 +1,8 @@
 number_of_predicates: 2953
+number_of_contributions: 6536
+avg_contributions_per_predicate: 125.30917710802574
+min_contributions_per_predicate: 10
+max_contributions_per_predicate: 6320
 number_of_papers: 2925
 avg_papers_per_predicate: 57.047748052827636
 min_papers_per_predicate: 2

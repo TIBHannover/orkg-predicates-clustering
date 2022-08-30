@@ -1,4 +1,8 @@
 number_of_comparisons: 305
+number_of_contributions: 6536
+avg_contributions_per_comparison: 23.41639344262295
+min_contributions_per_comparison: 10
+max_contributions_per_comparison: 248
 number_of_papers: 2925
 avg_papers_per_comparison: 11.560655737704918
 min_papers_per_comparison: 2

@@ -41,7 +41,7 @@ def scatter_plot(x_data, y_data, x_label, y_label, statistics, item='predicate')
 
 def scatters_plot(x_data, y_data, x_label, y_label, legend_labels):
     plt.clf()
-    markers = ['o', 'v', 'x']
+    markers = ['o', 'v', 'x', '*']
 
     for i, y in enumerate(y_data):
         plt.scatter(x=x_data, y=y, marker=markers[i], s=8, label=legend_labels[i])
