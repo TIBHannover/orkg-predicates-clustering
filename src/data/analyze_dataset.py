@@ -187,7 +187,7 @@ def main(dataset):
     statistics_per_entity(
         dataset,
         entity_name='comparison',
-        dir_path=os.path.join(PROCESSED_DATA_DIR, 'by_comparisons')
+        dir_path=os.path.join(PROCESSED_DATA_DIR, 'by_comparison')
     )
 
     by_predicates = extract_predicates(dataset)
