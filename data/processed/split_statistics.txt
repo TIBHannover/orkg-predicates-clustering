@@ -1,18 +1,18 @@
 Dataset:
-	Papers: 3526
-	Distinct Papers: 2925
-	Contributions: 7142
-	Distinct Contributions: 6536
-	Comparisons: 305
+	Papers: 4993
+	Distinct Papers: 4392
+	Contributions: 9230
+	Distinct Contributions: 8624
+	Comparisons: 307
 Training:
-	Papers: 2335
-	Distinct Papers: 2039
-	Contributions: 3599
-	Distinct Contributions: 2803
-	Comparisons: 305
+	Papers: 3361
+	Distinct Papers: 3065
+	Contributions: 5052
+	Distinct Contributions: 4261
+	Comparisons: 307
 Test:
-	Papers: 886
-	Distinct Papers: 886
-	Contributions: 1118
-	Distinct Contributions: 1118
-	Comparisons: 226
+	Papers: 1327
+	Distinct Papers: 1327
+	Contributions: 1751
+	Distinct Contributions: 1751
+	Comparisons: 229
