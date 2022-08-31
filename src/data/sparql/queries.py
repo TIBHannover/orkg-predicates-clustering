@@ -47,6 +47,20 @@ SELECT DISTINCT ?comparison ?comparison_label
 ORDER BY ?comparison""".format(blacklist, n_contributions)
 
 
+PAPERS_QUERY = """PREFIX orkgc: <http://orkg.org/orkg/class/>
+    PREFIX orkgp: <http://orkg.org/orkg/predicate/>
+
+    SELECT ?paper ?paper_title ?doi ?research_field ?research_field_label
+        WHERE {
+               ?paper rdf:type orkgc:Paper ;
+                      rdfs:label ?paper_title ;
+                      orkgp:P30 ?research_field .
+               ?research_field rdfs:label ?research_field_label .
+               OPTIONAL { ?paper orkgp:P26 ?doi } .
+        }
+"""
+
+
 def PAPER_CONTRIBUTIONS(paper_id):
     return """PREFIX orkgp: <http://orkg.org/orkg/predicate/>
             PREFIX orkgc: <http://orkg.org/orkg/class/>
@@ -57,3 +71,30 @@ def PAPER_CONTRIBUTIONS(paper_id):
                            orkgr:{} orkgp:P31 ?contribution .  
                     }}
             """.format(paper_id)
+
+
+def PAPERS_BY_RESEARCH_FIELD_QUERY(research_field):
+    return """PREFIX orkgc: <http://orkg.org/orkg/class/>
+    PREFIX orkgp: <http://orkg.org/orkg/predicate/>
+
+    SELECT ?paper ?paper_title ?doi
+        WHERE {{
+               ?paper rdf:type orkgc:Paper ;
+                      rdfs:label ?paper_title ;
+                      orkgp:P30 {}
+               OPTIONAL {{ ?paper orkgp:P26 ?doi }} .
+        }}""".format(research_field)
+
+
+def RESEARCH_PROBLEMS_BY_PAPER(paper_id):
+    return """PREFIX orkgr: <http://orkg.org/orkg/resource/>
+        PREFIX orkgp: <http://orkg.org/orkg/predicate/>
+        PREFIX orkgc: <http://orkg.org/orkg/class/>
+
+    SELECT DISTINCT ?id ?label
+        WHERE {{
+            orkgr:{} orkgp:P31 ?contribution .
+   
+            OPTIONAL {{?contribution orkgp:P32 ?id .
+                     ?id rdfs:label ?label}}
+        }}""".format(paper_id)

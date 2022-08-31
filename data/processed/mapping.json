@@ -1537,11 +1537,11 @@
             "label": "has subject domain"
         },
         {
-            "id": "P41282",
+            "id": "P41268",
             "label": "material"
         },
         {
-            "id": "P41296",
+            "id": "P41269",
             "label": "process"
         },
         {
@@ -9201,6 +9201,10 @@
             "label": "fine-grained entity types;fine-grained entity types;same as"
         },
         {
+            "id": "P45049;P45049;SCHEMAORG:description",
+            "label": "fine-grained entity types;fine-grained entity types;description"
+        },
+        {
             "id": "P45049;SAME_AS",
             "label": "fine-grained entity types;same as"
         },
@@ -9297,6 +9301,10 @@
         {
             "id": "P45067;P14",
             "label": "coarse-grained entity type;description"
+        },
+        {
+            "id": "P45067;SAME_AS",
+            "label": "coarse-grained entity type;same as"
         },
         {
             "id": "P41872",
@@ -12003,6 +12011,14 @@
             "label": "dataset;contribution;evaluation metrics;has value"
         },
         {
+            "id": "P2005;P31;P41532;P14",
+            "label": "dataset;contribution;evaluation metrics;description"
+        },
+        {
+            "id": "P2005;P31;P41532;SAME_AS",
+            "label": "dataset;contribution;evaluation metrics;same as"
+        },
+        {
             "id": "P2005;P31;P49075",
             "label": "dataset;contribution;intrusion detection type"
         },
@@ -14061,6 +14077,14 @@
             "label": "dataset;contribution;evaluation metrics;has value"
         },
         {
+            "id": "P2005;P31;P41532;P14",
+            "label": "dataset;contribution;evaluation metrics;description"
+        },
+        {
+            "id": "P2005;P31;P41532;SAME_AS",
+            "label": "dataset;contribution;evaluation metrics;same as"
+        },
+        {
             "id": "P2005;P31;P49075",
             "label": "dataset;contribution;intrusion detection type"
         },
@@ -14289,6 +14313,18 @@
         {
             "id": "METHOD;SAME_AS",
             "label": "method;same as"
+        },
+        {
+            "id": "METHOD;SCHEMAORG:sameAs",
+            "label": "method;sameas"
+        },
+        {
+            "id": "METHOD;SCHEMAORG:sameAs;P14",
+            "label": "method;sameas;description"
+        },
+        {
+            "id": "METHOD;SCHEMAORG:sameAs;SAME_AS",
+            "label": "method;sameas;same as"
         },
         {
             "id": "P15051",
@@ -14719,6 +14755,18 @@
         {
             "id": "METHOD;SAME_AS",
             "label": "method;same as"
+        },
+        {
+            "id": "METHOD;SCHEMAORG:sameAs",
+            "label": "method;sameas"
+        },
+        {
+            "id": "METHOD;SCHEMAORG:sameAs;P14",
+            "label": "method;sameas;description"
+        },
+        {
+            "id": "METHOD;SCHEMAORG:sameAs;SAME_AS",
+            "label": "method;sameas;same as"
         },
         {
             "id": "P15051",
@@ -16279,6 +16327,592 @@
         {
             "id": "P4053;HAS_EVALUATION;SAME_AS",
             "label": "is about;has evaluation;same as"
+        }
+    ],
+    "R213443": [
+        {
+            "id": "P2001",
+            "label": "algorithm"
+        },
+        {
+            "id": "P2001;P56036",
+            "label": "algorithm;theory description"
+        },
+        {
+            "id": "P2001;P4",
+            "label": "algorithm;refers to"
+        },
+        {
+            "id": "P2001;P4;P56036",
+            "label": "algorithm;refers to;theory description"
+        },
+        {
+            "id": "P2001;P14",
+            "label": "algorithm;description"
+        },
+        {
+            "id": "P2001;P24013",
+            "label": "algorithm;has goal"
+        },
+        {
+            "id": "P2001;P7111",
+            "label": "algorithm;has name"
+        },
+        {
+            "id": "P2001;P18",
+            "label": "algorithm;part of"
+        },
+        {
+            "id": "P2001;P18;P27",
+            "label": "algorithm;part of;author"
+        },
+        {
+            "id": "P2001;P18;P31",
+            "label": "algorithm;part of;contribution"
+        },
+        {
+            "id": "P2001;P18;P31;P38003",
+            "label": "algorithm;part of;contribution;dataset size"
+        },
+        {
+            "id": "P2001;P18;P31;P59166",
+            "label": "algorithm;part of;contribution;has bandwidth usage"
+        },
+        {
+            "id": "P2001;P18;P31;P59166;HAS_VALUE",
+            "label": "algorithm;part of;contribution;has bandwidth usage;value"
+        },
+        {
+            "id": "P2001;P18;P31;P59167",
+            "label": "algorithm;part of;contribution;has optimization time"
+        },
+        {
+            "id": "P2001;P18;P31;P59167;HAS_VALUE",
+            "label": "algorithm;part of;contribution;has optimization time;value"
+        },
+        {
+            "id": "P2001;P18;P31;P9026",
+            "label": "algorithm;part of;contribution;has performance"
+        },
+        {
+            "id": "P2001;P18;P31;P9026;HAS_VALUE",
+            "label": "algorithm;part of;contribution;has performance;value"
+        },
+        {
+            "id": "P2001;P18;P31;P38002",
+            "label": "algorithm;part of;contribution;query"
+        },
+        {
+            "id": "P2001;P18;P31;P2001",
+            "label": "algorithm;part of;contribution;algorithm"
+        },
+        {
+            "id": "P2001;P18;P31;P2001;P14",
+            "label": "algorithm;part of;contribution;algorithm;description"
+        },
+        {
+            "id": "P2001;P18;P31;P32",
+            "label": "algorithm;part of;contribution;research problem"
+        },
+        {
+            "id": "P2001;P18;P31;P32;description",
+            "label": "algorithm;part of;contribution;research problem;description"
+        },
+        {
+            "id": "P2001;P18;P31;P42010",
+            "label": "algorithm;part of;contribution;sparql query"
+        },
+        {
+            "id": "P2001;P18;P31;P42010;P20098",
+            "label": "algorithm;part of;contribution;sparql query;has description"
+        },
+        {
+            "id": "P2001;P18;P31;P42010;P52036",
+            "label": "algorithm;part of;contribution;sparql query;number of classes"
+        },
+        {
+            "id": "P2001;P18;P31;P42010;P39006",
+            "label": "algorithm;part of;contribution;sparql query;number of properties"
+        },
+        {
+            "id": "P2001;P18;P31;P42010;P55028",
+            "label": "algorithm;part of;contribution;sparql query;query text"
+        },
+        {
+            "id": "P2001;P18;P31;P42010;SAME_AS",
+            "label": "algorithm;part of;contribution;sparql query;same as"
+        },
+        {
+            "id": "P2001;P18;P31;P42010;P55029",
+            "label": "algorithm;part of;contribution;sparql query;number of triple patterns"
+        },
+        {
+            "id": "P2001;P18;P31;P42010;P38003",
+            "label": "algorithm;part of;contribution;sparql query;dataset size"
+        },
+        {
+            "id": "P2001;P18;P31;P42010;P37658",
+            "label": "algorithm;part of;contribution;sparql query;hardware"
+        },
+        {
+            "id": "P2001;P18;P31;P42010;P9026",
+            "label": "algorithm;part of;contribution;sparql query;has performance"
+        },
+        {
+            "id": "P2001;P18;P31;P42010;P38002",
+            "label": "algorithm;part of;contribution;sparql query;query"
+        },
+        {
+            "id": "P2001;P18;P31;P42010;P55031",
+            "label": "algorithm;part of;contribution;sparql query;contains triangular pattern"
+        },
+        {
+            "id": "P2001;P18;P26",
+            "label": "algorithm;part of;doi"
+        },
+        {
+            "id": "P2001;P18;P29",
+            "label": "algorithm;part of;publication year"
+        },
+        {
+            "id": "P2001;P18;P30",
+            "label": "algorithm;part of;research field"
+        },
+        {
+            "id": "P2001;P18;url",
+            "label": "algorithm;part of;url"
+        },
+        {
+            "id": "P2001;P18;HAS_VENUE",
+            "label": "algorithm;part of;venue"
+        },
+        {
+            "id": "P2001;P37657",
+            "label": "algorithm;built on top of"
+        },
+        {
+            "id": "P2001;P37657;P37606",
+            "label": "algorithm;built on top of;implemented language"
+        },
+        {
+            "id": "P2001;P15007",
+            "label": "algorithm;conducted by"
+        },
+        {
+            "id": "P2001;P15007;HAS_APPROACH",
+            "label": "algorithm;conducted by;has approach"
+        },
+        {
+            "id": "P2001;P15007;P35006",
+            "label": "algorithm;conducted by;additional component"
+        },
+        {
+            "id": "P2001;P15007;P35006;P24009",
+            "label": "algorithm;conducted by;additional component;has definition"
+        },
+        {
+            "id": "P2001;P15007;P24009",
+            "label": "algorithm;conducted by;has definition"
+        },
+        {
+            "id": "P2001;P15007;P37147",
+            "label": "algorithm;conducted by;has parameter"
+        },
+        {
+            "id": "P2001;P15007;P37147;P24009",
+            "label": "algorithm;conducted by;has parameter;has definition"
+        },
+        {
+            "id": "P2001;HAS_APPROACH",
+            "label": "algorithm;has approach"
+        },
+        {
+            "id": "P2001;P4;P4",
+            "label": "algorithm;refers to;refers to"
+        },
+        {
+            "id": "P2001;P4;P4;P56036",
+            "label": "algorithm;refers to;refers to;theory description"
+        },
+        {
+            "id": "P38003",
+            "label": "dataset size"
+        },
+        {
+            "id": "P38003;P7004",
+            "label": "dataset size;unit"
+        },
+        {
+            "id": "P38003;HAS_VALUE",
+            "label": "dataset size;value"
+        },
+        {
+            "id": "P38003;P37612",
+            "label": "dataset size;has triples"
+        },
+        {
+            "id": "P38003;P58038",
+            "label": "dataset size;universities"
+        },
+        {
+            "id": "P37658",
+            "label": "hardware"
+        },
+        {
+            "id": "P37658;P4",
+            "label": "hardware;refers to"
+        },
+        {
+            "id": "P37658;P4;P56036",
+            "label": "hardware;refers to;theory description"
+        },
+        {
+            "id": "P37658;P56036",
+            "label": "hardware;theory description"
+        },
+        {
+            "id": "P37658;P58037",
+            "label": "hardware;buffered reads"
+        },
+        {
+            "id": "P37658;P58037;P7004",
+            "label": "hardware;buffered reads;unit"
+        },
+        {
+            "id": "P37658;P58037;HAS_VALUE",
+            "label": "hardware;buffered reads;value"
+        },
+        {
+            "id": "P37658;P7004",
+            "label": "hardware;unit"
+        },
+        {
+            "id": "P37658;P7004;P4001",
+            "label": "hardware;unit;label"
+        },
+        {
+            "id": "P37658;P7004;P45074",
+            "label": "hardware;unit;qudt:hasquantitykind"
+        },
+        {
+            "id": "P37658;HAS_VALUE",
+            "label": "hardware;value"
+        },
+        {
+            "id": "P37658;P15411",
+            "label": "hardware;definition"
+        },
+        {
+            "id": "P37658;P20107",
+            "label": "hardware;has basic components"
+        },
+        {
+            "id": "P37658;P20107;P18038",
+            "label": "hardware;has basic components;has task"
+        },
+        {
+            "id": "P37658;P7158",
+            "label": "hardware;has scheme"
+        },
+        {
+            "id": "P37658;P7158;P17",
+            "label": "hardware;has scheme;has part"
+        },
+        {
+            "id": "P37658;P7158;P17;P18038",
+            "label": "hardware;has scheme;has part;has task"
+        },
+        {
+            "id": "P37658;P7158;P18038",
+            "label": "hardware;has scheme;has task"
+        },
+        {
+            "id": "P59166",
+            "label": "has bandwidth usage"
+        },
+        {
+            "id": "P59166;P7004",
+            "label": "has bandwidth usage;unit"
+        },
+        {
+            "id": "P59166;HAS_VALUE",
+            "label": "has bandwidth usage;value"
+        },
+        {
+            "id": "HAS_DATASET",
+            "label": "has dataset"
+        },
+        {
+            "id": "P37659",
+            "label": "has dataset size"
+        },
+        {
+            "id": "P37659;P37612",
+            "label": "has dataset size;has triples"
+        },
+        {
+            "id": "P37659;P58038",
+            "label": "has dataset size;universities"
+        },
+        {
+            "id": "HAS_DATASET;P55030",
+            "label": "has dataset;number of files"
+        },
+        {
+            "id": "HAS_DATASET;P37615",
+            "label": "has dataset;number of triples"
+        },
+        {
+            "id": "HAS_DATASET;SAME_AS",
+            "label": "has dataset;same as"
+        },
+        {
+            "id": "P43104",
+            "label": "has environment"
+        },
+        {
+            "id": "P43104;P55022",
+            "label": "has environment;hardware configuration"
+        },
+        {
+            "id": "P43104;P55022;P39007",
+            "label": "has environment;hardware configuration;memory"
+        },
+        {
+            "id": "P43104;P55022;P39007;P7004",
+            "label": "has environment;hardware configuration;memory;unit"
+        },
+        {
+            "id": "P43104;P55022;P39007;P7004;P4001",
+            "label": "has environment;hardware configuration;memory;unit;label"
+        },
+        {
+            "id": "P43104;P55022;P39007;P7004;P45074",
+            "label": "has environment;hardware configuration;memory;unit;qudt:hasquantitykind"
+        },
+        {
+            "id": "P43104;P55022;P39007;HAS_VALUE",
+            "label": "has environment;hardware configuration;memory;value"
+        },
+        {
+            "id": "P43104;P55022;P59163",
+            "label": "has environment;hardware configuration;processor clock speed"
+        },
+        {
+            "id": "P43104;P55022;P59163;P7004",
+            "label": "has environment;hardware configuration;processor clock speed;unit"
+        },
+        {
+            "id": "P43104;P55022;P59163;P7004;P4001",
+            "label": "has environment;hardware configuration;processor clock speed;unit;label"
+        },
+        {
+            "id": "P43104;P55022;P59163;P7004;P45074",
+            "label": "has environment;hardware configuration;processor clock speed;unit;qudt:hasquantitykind"
+        },
+        {
+            "id": "P43104;P55022;P59163;HAS_VALUE",
+            "label": "has environment;hardware configuration;processor clock speed;value"
+        },
+        {
+            "id": "P43104;P59161",
+            "label": "has environment;number of machines"
+        },
+        {
+            "id": "P43104;P55032",
+            "label": "has environment;number of peers"
+        },
+        {
+            "id": "P43104;P59162",
+            "label": "has environment;number of peers per machine"
+        },
+        {
+            "id": "P59167",
+            "label": "has optimization time"
+        },
+        {
+            "id": "P59167;P7004",
+            "label": "has optimization time;unit"
+        },
+        {
+            "id": "P59167;P7004;P4001",
+            "label": "has optimization time;unit;label"
+        },
+        {
+            "id": "P59167;P7004;P45074",
+            "label": "has optimization time;unit;qudt:hasquantitykind"
+        },
+        {
+            "id": "P59167;P7004;P45074;SAME_AS",
+            "label": "has optimization time;unit;qudt:hasquantitykind;same as"
+        },
+        {
+            "id": "P59167;P7004;P45074;P45120",
+            "label": "has optimization time;unit;qudt:hasquantitykind;applicable unit"
+        },
+        {
+            "id": "P59167;P7004;P45074;P45120;P4001",
+            "label": "has optimization time;unit;qudt:hasquantitykind;applicable unit;label"
+        },
+        {
+            "id": "P59167;P7004;P45074;P45120;P45081",
+            "label": "has optimization time;unit;qudt:hasquantitykind;applicable unit;qudt:ucumcode"
+        },
+        {
+            "id": "P59167;P7004;P45074;P45120;SAME_AS",
+            "label": "has optimization time;unit;qudt:hasquantitykind;applicable unit;same as"
+        },
+        {
+            "id": "P59167;HAS_VALUE",
+            "label": "has optimization time;value"
+        },
+        {
+            "id": "P9026",
+            "label": "has performance"
+        },
+        {
+            "id": "P9026;P7004",
+            "label": "has performance;unit"
+        },
+        {
+            "id": "P9026;HAS_VALUE",
+            "label": "has performance;value"
+        },
+        {
+            "id": "P9026;P7004;P4001",
+            "label": "has performance;unit;label"
+        },
+        {
+            "id": "P9026;P7004;P45081",
+            "label": "has performance;unit;qudt:ucumcode"
+        },
+        {
+            "id": "P9026;P7004;SAME_AS",
+            "label": "has performance;unit;same as"
+        },
+        {
+            "id": "P9026;P7004;P45074",
+            "label": "has performance;unit;qudt:hasquantitykind"
+        },
+        {
+            "id": "P9026;P7004;P45074;SAME_AS",
+            "label": "has performance;unit;qudt:hasquantitykind;same as"
+        },
+        {
+            "id": "P9026;P7004;P45074;P45120",
+            "label": "has performance;unit;qudt:hasquantitykind;applicable unit"
+        },
+        {
+            "id": "P9026;P7004;P45074;P45120;P4001",
+            "label": "has performance;unit;qudt:hasquantitykind;applicable unit;label"
+        },
+        {
+            "id": "P9026;P7004;P45074;P45120;P45081",
+            "label": "has performance;unit;qudt:hasquantitykind;applicable unit;qudt:ucumcode"
+        },
+        {
+            "id": "P9026;P7004;P45074;P45120;SAME_AS",
+            "label": "has performance;unit;qudt:hasquantitykind;applicable unit;same as"
+        },
+        {
+            "id": "P38002",
+            "label": "query"
+        },
+        {
+            "id": "P32",
+            "label": "research problem"
+        },
+        {
+            "id": "P32;description",
+            "label": "research problem;description"
+        },
+        {
+            "id": "P23171",
+            "label": "setting"
+        },
+        {
+            "id": "P23171;P37148",
+            "label": "setting;has parameters"
+        },
+        {
+            "id": "P42010",
+            "label": "sparql query"
+        },
+        {
+            "id": "P42010;P20098",
+            "label": "sparql query;has description"
+        },
+        {
+            "id": "P42010;P52036",
+            "label": "sparql query;number of classes"
+        },
+        {
+            "id": "P42010;P39006",
+            "label": "sparql query;number of properties"
+        },
+        {
+            "id": "P42010;P55028",
+            "label": "sparql query;query text"
+        },
+        {
+            "id": "P42010;SAME_AS",
+            "label": "sparql query;same as"
+        },
+        {
+            "id": "P42010;P38003",
+            "label": "sparql query;dataset size"
+        },
+        {
+            "id": "P42010;P37658",
+            "label": "sparql query;hardware"
+        },
+        {
+            "id": "P42010;P9026",
+            "label": "sparql query;has performance"
+        },
+        {
+            "id": "P42010;P9026;P7004",
+            "label": "sparql query;has performance;unit"
+        },
+        {
+            "id": "P42010;P9026;HAS_VALUE",
+            "label": "sparql query;has performance;value"
+        },
+        {
+            "id": "P42010;P55029",
+            "label": "sparql query;number of triple patterns"
+        },
+        {
+            "id": "P42010;P38002",
+            "label": "sparql query;query"
+        },
+        {
+            "id": "P42010;P55031",
+            "label": "sparql query;contains triangular pattern"
+        },
+        {
+            "id": "P7004",
+            "label": "unit"
+        },
+        {
+            "id": "P38001",
+            "label": "uses benchmark"
+        },
+        {
+            "id": "P38001;description",
+            "label": "uses benchmark;description"
+        },
+        {
+            "id": "P38001;HAS_METHOD",
+            "label": "uses benchmark;has method"
+        },
+        {
+            "id": "P38001;hasProperty",
+            "label": "uses benchmark;has property"
+        },
+        {
+            "id": "HAS_VALUE",
+            "label": "value"
         }
     ],
     "R25093": [
@@ -23668,5 +24302,6 @@
             "id": "P35076",
             "label": "volume"
         }
-    ]
+    ],
+    "EMPTY": []
 }
