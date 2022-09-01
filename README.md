@@ -46,7 +46,7 @@ Papers abstracts were fetched from the [ORKG papers dump](https://gitlab.com/TIB
 ##### Grouped by ``Comparisons``
 
 * [Statistics Summary](data/processed/by_comparison/statistics.txt)
-* [Statistics pro Comparison](data/processed/by_comparison/statistics.csv)
+* [Statistics per Comparison](data/processed/by_comparison/statistics.csv)
 
 |                                                                                                                                                                                                                 |                                                                                                                                                                                                              |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -58,7 +58,7 @@ Papers abstracts were fetched from the [ORKG papers dump](https://gitlab.com/TIB
 ##### Grouped by ``Predicates``
 
 * [Statistics Summary](data/processed/by_predicate/statistics.txt)
-* [Statistics pro Predicate](data/processed/by_predicate/statistics.csv)
+* [Statistics per Predicate](data/processed/by_predicate/statistics.csv)
 
 |                                                                                                                                                                                                               |                                                                                                                                                                                                            |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
