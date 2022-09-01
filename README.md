@@ -30,14 +30,14 @@ Papers abstracts were fetched from the [ORKG papers dump](https://gitlab.com/TIB
 
 | Comparisons | ``Compared`` Papers | ``Uncompared`` Papers | ``Compared`` Contributions | ``Uncompared`` Contributions | ``Compared`` Research Fields | ``Uncompared`` Research Fields |
 |:-----------:|:-------------------:|:---------------------:|:--------------------------:|:----------------------------:|:----------------------------:|:------------------------------:|
-|     307     |        2928         |         1464          |            6601            |             2023             |              7               |              143               |
+|     329     |        3030         |         1515          |            6866            |             2264             |              8               |              126               |
 
 
 |       -       | [Dataset](data/processed/dataset.json) | [Training](data/processed/training_set.json) |  [Test](data/processed/test_set.json)  |
 |:-------------:|:--------------------------------------:|:--------------------------------------------:|:--------------------------------------:|
-|  Comparisons  |                  307                   |                     307                      |                  229                   |
-|    Papers     |                  4392                  |                     3065                     |                  1327                  |
-| Contributions |                  8624                  |                     4261                     |                  1751                  |
+|  Comparisons  |                  329                   |                     329                      |                  237                   |
+|    Papers     |                  4545                  |                     3176                     |                  1369                  |
+| Contributions |                  9130                  |                     4527                     |                  1876                  |
 
 [More details](data/processed/split_statistics.txt)
 
