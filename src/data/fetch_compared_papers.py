@@ -3,7 +3,7 @@ import requests
 import warnings
 import pandas as pd
 
-from src import TRIPLE_STORE_URL, SIMCOMP_HOST, RAW_DATA_DIR
+from src import TRIPLE_STORE_URL, SIMCOMP_HOST, RAW_DATA_DIR, ORKG_PAPERS_DUMP_URL
 from src.data.sparql.queries import COMPARISONS_CONTRIBUTINOS_AND_THEIR_PAPERS
 from src.data.sparql.service import query
 from src.util.io import Writer
@@ -199,5 +199,5 @@ def main(papers_dump):
 
 
 if __name__ == '__main__':
-    dump = pd.read_csv(os.path.join(RAW_DATA_DIR, 'orkg_papers.csv')).fillna('')
+    dump = pd.read_csv(ORKG_PAPERS_DUMP_URL).fillna('')
     main(dump)

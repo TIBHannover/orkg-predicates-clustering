@@ -3,7 +3,8 @@ import warnings
 
 import pandas as pd
 
-from src import RAW_DATA_DIR, TRIPLE_STORE_URL
+from src import RAW_DATA_DIR, TRIPLE_STORE_URL, ORKG_PAPERS_DUMP_URL
+from src.data import fetch_compared_papers
 from src.data.sparql.queries import PAPERS_BY_RESEARCH_FIELD_QUERY, PAPERS_QUERY, RESEARCH_PROBLEMS_BY_PAPER
 from src.data.sparql.service import query
 from src.util.io import Reader, Writer
@@ -190,7 +191,6 @@ def main(comparisons, papers_dump):
 
 
 if __name__ == '__main__':
-    dataset = Reader.read_json(os.path.join(RAW_DATA_DIR, 'compared_papers.json'))
-    dump = pd.read_csv(os.path.join(RAW_DATA_DIR, 'orkg_papers.csv')).fillna('')
-
-    main(dataset['comparisons'], dump)
+    dump = pd.read_csv(ORKG_PAPERS_DUMP_URL).fillna('')
+    comparisons = fetch_compared_papers.main(dump)
+    main(comparisons, dump)

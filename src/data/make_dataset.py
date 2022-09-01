@@ -2,7 +2,7 @@ import os
 
 import pandas as pd
 
-from src import RAW_DATA_DIR, PROCESSED_DATA_DIR
+from src import PROCESSED_DATA_DIR, ORKG_PAPERS_DUMP_URL
 from src.data import fetch_compared_papers, fetch_uncompared_papers
 from src.data.split_dataset import get_paper_contributions
 from src.util.io import Writer
@@ -10,8 +10,7 @@ from src.util.list import flatten
 
 
 def main(config=None):
-    # TODO: automatically download the orkg_papers dump
-    papers_dump = pd.read_csv(os.path.join(RAW_DATA_DIR, 'orkg_papers.csv')).fillna('')
+    papers_dump = pd.read_csv(ORKG_PAPERS_DUMP_URL).fillna('')
 
     comparisons = fetch_compared_papers.main(papers_dump)
     uncompared_papers = fetch_uncompared_papers.main(comparisons, papers_dump)

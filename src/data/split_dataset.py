@@ -27,8 +27,8 @@ def build_instance(comparison, paper):
     }
 
 
-def build_training_set(data, training_set, training_instance_ids):
-    for comparison in data['comparisons']:
+def build_training_set(dataset, training_set, training_instance_ids):
+    for comparison in dataset['comparisons']:
 
         if 'contributions' in comparison and len(comparison['contributions']) < 10:
             continue
@@ -43,8 +43,8 @@ def build_training_set(data, training_set, training_instance_ids):
             training_set['instances'].append(build_instance(comparison, paper))
 
 
-def build_test_set(data, test_set, training_instance_ids, test_instance_ids):
-    for comparison in data['comparisons']:
+def build_test_set(dataset, test_set, training_instance_ids, test_instance_ids):
+    for comparison in dataset['comparisons']:
 
         for paper in comparison['papers']:
 
@@ -55,12 +55,12 @@ def build_test_set(data, test_set, training_instance_ids, test_instance_ids):
             test_set['instances'].append(build_instance(comparison, paper))
 
 
-def split_dataset(data):
+def split_dataset(dataset):
     training_set, test_set = {'instances': []}, {'instances': []}
     training_instance_ids, test_instance_ids = [], []
 
-    build_training_set(data, training_set, training_instance_ids)
-    build_test_set(data, test_set, training_instance_ids, test_instance_ids)
+    build_training_set(dataset, training_set, training_instance_ids)
+    build_test_set(dataset, test_set, training_instance_ids, test_instance_ids)
 
     return training_set, test_set
 

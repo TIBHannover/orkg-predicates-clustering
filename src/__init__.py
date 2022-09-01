@@ -7,3 +7,4 @@ RAW_DATA_DIR = os.path.join(DATA_DIR, 'raw')
 PROCESSED_DATA_DIR = os.path.join(DATA_DIR, 'processed')
 TRIPLE_STORE_URL = "https://orkg.org/triplestore"
 SIMCOMP_HOST = 'https://orkg.org/simcomp'
+ORKG_PAPERS_DUMP_URL = 'https://orkg.org/files/orkg_papers.csv'
