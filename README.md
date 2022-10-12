@@ -1,161 +1,104 @@
 # ORKG-NLP Service Template
 
-In case you would like to develop an NLP service, integrate it to
-[``orkgnlp``](https://gitlab.com/TIBHannover/orkg/nlp/orkg-nlp-pypi) and automate/maintain
-its retraining, you should probably follow our guidelines. We provide here a template for
-a repository hosting an ORKG-NLP service with some set of instructions. Please also consider our
-[integration requirements](https://orkg-nlp-pypi.readthedocs.io/en/latest/contribute.html#integration-requirements)
-before starting your implementation! 
-
-## Repository Structure
-We recommend to have the following file structure as it seems generic to any NLP/ML service. 
-Indeed, you also can change the naming/structure to fit your specific task. Most importantly is
-the file ``main.py`` that is responsible for running all scripts in the repository in the correct order.
-Please also consider to implement the script ``predict.py`` which is responsible for executing the 
-model as an End-to-End service with input and output from an end-user perspective!
-
-
-```commandline
-.
-└── orkg_nlp_service_template           <- root directory of the repository
-    ├── data
-    │   ├── processed             <- contains the processed data
-    │   └── raw                   <- contains the raw data
-    ├── models                          <- contains the trained/used models
-    ├── notebooks                       <- contains the notebooks used
-    ├── README.md                       <- README file for documenting the service.
-    ├── requirements.txt                <- contains python requirements listed with specifying the versions
-    └── src
-        ├── data                        <- contains python scripts for interacting with the dataset
-        │   ├── __init__.py
-        │   └── make_dataset.py
-        ├── __init__.py
-        ├── main.py                     <- main python script that shows the order of running the scripts
-        ├── models                      <- containts python scripts for interacting with the models
-        │   ├── evaluate.py
-        │   ├── __init__.py
-        │   ├── predict.py
-        │   └── train.py
-        └── util                        <- contains utility scripts/functions
-            └── __init__.py
-```
-
-## What to do ?
-
-### Implement ``src/models/predict.py``
-This script must show the workflow of the service as from an end-user perspective, i.e. its input
-is what the user will be asked for (e.g. single text instance) and its output is what the user will
-expect (e.g. list of annotated text segments).
-
-**Important:** This script must be as **decoupled** as possible from all other scripts in this repository.
-
-### Implement ``src/main.py``
-This script must show the entire workflow of retraining the service. In case there are any intermediate 
-steps that cannot be done fully-automated, the script shall be implemented with arguments
-for the automated steps and associated with documentation of how and when to run the intermediate
-steps. E.g.:
-```commandline
-1. python -m src.main -s dataset
-2. run notebooks/train.ipynb and download the output model locally
-3. python -m src.main -s evaluate
-```
-
-### Provide ``requirements.txt``
-The version of the listed dependencies must be specified by mentioning the exact version or at least
-a range of versions.
-
-### Provide ``README.md``
-Please find a README template below.
-
------------------------------------------------------------------------------------
-# README Template
-
 ## Overview
 
 ### Aims
-``...``
+This service aims to foster constructing the ORKG using predefined set of predicates existing in the graph.
+This directs ORKG users to converge towards selecting predicates added by domain experts while not preventing
+them from adding new ones / selecting other ones, as the crowdsourcing concept of the ORKG suggests. Note that this
+service and the
+[``Templates Recommendation service``](https://gitlab.com/TIBHannover/orkg/nlp/experiments/orkg-templates-recommendation)
+serve the same purpose, but from different perspectives. 
 
 ### Approach
-``...``
+Based on the created [dataset](#dataset), we consider a comparison comparing a group of papers by a set of predicates
+a group of semantically similar papers that could be represented as a **cluster** of papers. Thus, we apply
+[K-means](https://scikit-learn.org/stable/modules/clustering.html#k-means) and 
+[Agglomerative](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html)
+clustering algorithms on our dataset after converting a paper textual representation to 
+[SciBERT](https://aclanthology.org/D19-1371/) or
+[TF-IDF](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
+vectors.
+
+When a new coming paper gets assigned to one of the paper clusters, the comparisons of the included papers in that
+cluster will be intermediately obtained which in turn lead to sets of compared predicates. The output of the service 
+is the union of the compared predicates sets.
 
 ### Dataset
-``...``
+The dataset is created by fetching papers from those ORKG Comparisons having more than **10** contributions to 
+be considered loosely as an evolving template pattern or as part of valid semantic group.
 
-### Limitations 
-``...``
+### Evaluation
+Per the standard evaluation practice of information retrieval systems, we employed the macro- as well as the 
+micro-average of the precision (P), recall (R) and F-score (F1).
 
-### Useful Links
-* ``...``
-* ``...``
+#### Experimental Setup
 
-## How to Run
+First, we created training and test dataset splits of our task corpus. From each comparison, we split its papers in
+the `70:30` ratio for creating training and test datasets, respectively. The test dataset was reserved as a blind set
+with which the trained algorithm was queried for its predictions of clustered predicate groups. In total, 
+our training set consisted of `3,696` contributions distributed over `192` comparisons, whereas our test set had `1,427` 
+contributions distributed over `167` comparisons. The training and test sets contain mutually unique instances.
 
-### Prerequisites
+$`K`$ was strategically chose in the range  $`|C| \leq k \leq |P|`$ with a step size of `50`, where $`C=200`$ is the set of
+ORKG comparisons and $`P=2050`$ is the set of training papers. `38` total models were obtained per vectorization method.
 
-#### Software Dependencies
-* Python version ``x.xx``
-* Java version ``x.xx``
-* ...
+Some considerations need to be taken w.r.t. evaluating our clustering models. We put emphasis on the absence of the
+prediction function in the agglomerative algorithm compared to its presence in K-means that can simply assign a new
+incoming data instance to one of the clusters based on the distance to the centroid. In hierarchical clustering on the
+other hand, assigning a new data instance can entirely change the clusters because it can trigger several mergings based
+on the linkage measure. In order to avoid re-building the hierarchical clusters for each test instance, we build them
+only once on the entire dataset and evaluate by comparing the comparisons' predicates of the training papers included in
+the cluster to which a test instance is assigned with the expected ones. 
 
-#### Hardware Resources
-* RAM ``x GB``
-* Storage ``x GB`` 
-* GPU ``xxxx``
-* ``...``
+#### Results
 
-### Service Retraining
+* Results of automatically generating contribution predicates groups using **K-means** clustering. K was chosen in the range from 200 to 2050 in step sizes of 50. The
+table shows the most significant results obtained in terms of P , R, and F 1.
+![kmeans_results](figures/kmeans_results.png)
 
-Here some text about how to re-build the dataset and re-train the model. 
-
-```commandline
-git clone <link to your repository>
-cd <repository directory>
-pip install -r requirements.txt
-python -m src.main [any necessary arguments]
-```
-
-or 
-
-```commandline
-git clone <link to your repository>
-cd <repository directory>
-pip install -r requirements.txt
-python -m src.main -s dataset [any necessary arguments]
-// intermediate step e.g.: run notebooks/train.ipynb and store the output model locally.
-python -m src.main -s evaluate [any necessary arguments]
-```
-
-### Service Integration
-
-Here some text about how to use the existing model as an End-to-End service. Please consider
-following the [integration requirements](https://orkg-nlp-pypi.readthedocs.io/en/latest/contribute.html#integration-requirements)
-if you want your service to be integrated into ``orkgnlp``.
-
-```commandline
-git clone <link to your repository>
-cd <repository directory>
-pip install -r requirements.txt
-python -m src.models.predict [any necessary arguments]
-```
-
+* Results of automatically generating contribution predicates groups using **Agglomerative**
+   clustering. K was chosen in the range from 200 to 2050 in step sizes of 50. The
+   table shows the most significant results obtained in terms of P , R, and F 1.
+![agglomerative_results](figures/agglomerative_results.png)
 
 ## Contribution
-This service is developed and maintained by:
-* Surname, Name <name.surname@domain.com>
-* ``...``
+This service is developed and maintained by
+
+* Arab Oghli, Omar <omar.araboghli@tib.eu>
+
+under supervision of
+* D'Souza, Jennifer <jennifer.dsouza@tib.eu>
+* Auer, Sören <auer@tib.eu>
 
 ## License
-``...``
+[MIT](./LICENSE)
 
 ## How to Cite
 
-```commandline
-your bibtex entry.
+```bibtex
+@misc{https://doi.org/10.48550/arxiv.2210.02034,
+  doi = {10.48550/ARXIV.2210.02034},
+  
+  url = {https://arxiv.org/abs/2210.02034},
+  
+  author = {Arab Oghli, Omar and D'Souza, Jennifer and Auer, Sören},
+  
+  keywords = {Digital Libraries (cs.DL), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Clustering Semantic Predicates in the Open Research Knowledge Graph},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+
 ```
 
 ## References
 
-* 1st reference
-* 2nd reference
-* ``...``
-
+* [Clustering Semantic Predicates in the Open Research Knowledge Graph](https://doi.org/10.48550/arXiv.2210.02034)
+* [Information Retrieval Service Aspects of the Open Research Knowledge Graph](https://doi.org/10.15488/11834)
+* [SciBERT: A Pretrained Language Model for Scientific Text](https://aclanthology.org/D19-1371/)
