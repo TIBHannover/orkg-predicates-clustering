@@ -1,0 +1,331 @@
+id,contributions,papers,predicates,research_fields,research_problems,frequent_field_ids,frequent_field_labels,problem_labels
+EMPTY,2264,1515,0,126,586,R11;R104;R140;R278;R133,Science;Bioinformatics;Software Engineering;Information Science;Artificial Intelligence,"Deployment Knowledgebases;Enterprise engineering;Business architecture development;Enterprise transformation: IT and methodology support ;Enterprise modeling;Redundancy in high volume image datasets;Alteration mapping in metallogenic provinces using remote sensing techniques;Primary production assessment in the Bay of Bengal;Primary production assessment in the Arabian Sea;Primary production assessment during blooming period in the Arabian Sea;Nitrogen uptake rates assessment in the Indian Ocean;contextual data;Multimedia indexing;Problem settings of graph embedding;Graph embedding techniques;Graph embedding enabled applications;scientific relation classification;scientific relation extraction;scientific relation identification;SiO2 deoxidation;Etching of silicon;Model Composability;Automated design space exploration;Software architecture optimization;crowd safety;Video production and application;connection of human values and Scrum roles;measuring human values in software engineering;Applying videos as a by-product of requirements engineering practices;Validating the benefit of videos as a by-product of requirements engineering practices;Programming computers to recognize human Faces;Deepl Learning in 3D face recognition;How can we adopt machine learning and/or artificial intelligence to analyze the data for Earth science and applications?;to update the exist findings about the face-to-face and online methods to provide infomraiton literacy training in universities;state-of-the-art approaches and a variety of applications;Focus of Crowd-based Requirements Engineering;How frequently are refactoring operations applied?;How frequently are refactoring operations applied manually versus with automated tools?;How can the usability of refactoring tools be improved?;Automatic generation of source code;Predicting the evolution of 2019-nCoV;COVID-19 case fatality rate;assess the impact of COVID-19 by SEIR model predictions;Sequencing of the SARS-CoV-2 genome in Iceland;SARS-CoV-2 screening in Iceland;Sequencing of the SARS-CoV-2 genome;determining the potential impact of control measures in mitigating 2019-nCoV;Antiviral Compounds from Natural Sources;Breast cancer;Polymeric nanoparticles for cancer treatment;Inorganic nanoparticles for cancer treatment;Nanoparticles for the management of inflammatory bowel disease (IBD);Extracellular vesicles as drug delivery systems;Nanoemulsions: formation, properties and applications;Lipid micelles as drug carriers;Liposomes as drug carriers;Solid lipid nanoparticles as drug carriers;Extracellular vesicles as drug carrier;PLGA-based nanoparticles for drug delivery to the brain;Drug delivery across the blood brain barrier;Lipid vesicles for psoriasis therapy;Super magnetic iron oxide nanoparticles;Structured data for scholarly publications;Semantic annotation for scholarly publications;semantics of medical data;Comparative phylogenetics;Part-Of-Speech Tagging;Protein tagging;Scientific concept annotation;Language resource;Species name recognition and normalization;Identification of semantic relations;X-ray laser physics;Supply chain;Supplier selection;Demand forecasting in supply chain ;COVID-19 and supply chain management;Knowledge Graph Embeddings;Question Answering ;Brain tumor;End-to-end Relation Extraction;Joint entity and relation extraction;Relation Extraction;Joint Entity and Relation Extraction;This paper provided a thorough statistical analysis on the use of deep learning in speech related applications by extracting specific information from 174 papers published between the years 2006 and 2018.;forecasting research trends;Retinal Blood Vessel Segmentation;controlling robot actions;Question answering systems evaluation;Automatic text summarization;Crowd simulation and evacuation;finding optimal evacuation strategy;text extraction from images ;scene text detection;Scholarly Figure Text Extraction;Ontology learning from XML documents;Ontology learning from databases;L2 Writing Assistant;Named Entity Recognition;Word Sense Disambiguation;Evaluating Temporal Information Understanding;QA TempEval;Identification of implicit polarity;Determining Sentiment Intensity;Detecting Minimal Semantic Units and their Meanings;Determining rumor veracity;Infer the affectual state of a person from their tweet;Cross-lingual Semantic Parsing;Typologically Diverse Morphological Inflection; Open Machine Translation;Summarization;Effect of the COVID-19 pandemic on well-being;Describing the characteristics of humanitarian decision-making;Indoor environmental perception and behaviour;Improving the sensitivity of glucose biosensor;Exploring the piezoelectric properties of AlN films for device applications;Improving the performance of flexible strain sensors based on carbon nanomaterials; Application of Gallium Oxide Films in Photodetectors;How to present contested heritage in a digital archive?;How to integrate participatory approaches in hertage diplomacy?;Structured descriptions of research contributions;Scholarly communications representation;Collaborative question answering;Relation linking;Question Answering;aims to suggest a model that incorporates factors that affect the decision of establishing a startup by developers who have participated in open data hackathons;A search engine for datasets in an open Web ecosystem;digital twin;Software named entity recognition;Dataset creation;question answering for knowledge graphs;Bioinformatics databases and software named entity recognition;assess the FAIRness of research data;Knowledge Graph-based Recommendation;ontology for smart contracts;Brand Personality Detection;Brand Consistency Computation;Sentence Ranking;ready-to-use computational linguistics courseware;Dependency Parsing;Parsing;Neural Architectures for Named Entity Recognition;Crowdsourcing;Active Learning;Biomedical research in  Psychiatric Disorders;Commonsense Question answering;Autonomous Driving;Finding an efficient and state-of-the-art approach to search for optimal architectures for image classification.;transfer learning;Automated Reinforcement Learning (AutoRL);Chemical sensors;Line broadening in plasmas;Spectral lines broadening in plasmas;Impact of Covid-19 on mobility behaviour;Smart City framework;Participatory Sensing;Enterprise architecture;Internet of Things;Smart cities;Recommender systems for Smart city;Nanothermometer;Ontology Learning from Entity Relation Model;Ontology learning from Unified Modeling Language;Word Embeddings;Toxic Spans Detection;Detecting Clarification Requirements;Predicting Current and Future Psychological Health;Goal-Oriented Dialogue Systems;Recognizing Textual Entailment; Joint Student Response Analysis;End-to-end coreference resolution;Reference string parsing;Open-source implementation;natural language processing toolkit;Reference Dataset for Bibliographic Research;Compositional Semantics;Comprehensive Dataset;Recursive Neural Networks;Sentiment Analysis;Automatic leaderboard construction;Scientific Concept Extraction; Prediction Geographic Location Word Classes.;Prediction Number Word Classes;Relationship extraction;Extraction of gene or protein names;Gene or protein name normalization;gene name finding and normalization;Information Extraction;develop and deploy language engineering components;Named Entity Recognition in Twitter;Novel and Emerging Entity Recognition in Twitter;Chemical named entity recognition;Cross-Domain Named Entity Recognition;Protein post-translational modification event extraction;Pathway to Biomolecular event conversion;Event Extraction on Infectious Diseases;gene name normalization;Neural language modeling;Graded Word Similarity in Context;Predicting change of human similarity ratings for pairs of words in two different contexts;Predicting change of human similarity ratings for words;Predict contextual human perception of similarity;A Reference Dataset;Chemical named entity annotation;Natural Language Understanding;Multi-hop Question Answering;Iodine deficiency disorders (IDD) has been a major global public health problem threatening more than 2 billion people worldwide.;Correlation between crop diversity and dietary diversity;Disease Registration System;Solubility parameters;Mechanical properties of nacre-inspired materials;Group Anomaly Detection;privacy behavior;Detection of critical equipments;Digital transformation requires an New Library and Information Science;gender bias;self-citation;Social Netwrok Security and Privacy;Fake Account Detection;Misinformation & Fake News;Inference of interdomain routing paths ;Table extraction;how to structure data and information;Urban avoiders;semantic interoperability of the medical connected objects and their data;semantic interoperability support for the e-Health system;consistently represent health and fitness data from heterogeneous IoT sources;Semantic Web technologies to integrate the health data and home environment data;Heavy Metals Contamination in Water ;Question Answering in the Semantic Web;Named Entity Recongition;Named Entity Disambiguation;motion retargeting;motion synthesis;3D Rotation Estimation;Motion Capture;Aiming;Orientation;Reaching ;Temporal characteristics of nucleation events;climate change;CMIP5;experiment design;wind energy potentials;multi‐model ensemble;Europe;future changes;wind extremes;North sea;How can we utilize our understanding of the Earth system (physics of natural phenomenon) to coordinate observations and models to target specific domains (such as climate, natural resource, environment, agriculture, security) for timely data?;Activities associated with petroleum exploration, development and production operations have local detrimental and significant impacts on the atmosphere, soils and sediments, surface and groundwater, marine environment and terrestrial ecosystems in the Niger Delta.;Petroleum hydrocarbons contamination of soil, sediments and marine environment associated with the inadvertent discharges of petroleum–derived chemical wastes and petroleum hydrocarbons associated with spillage and other sources into the environment often pose harmful effects on human health and the natural environment, and have negative socio–economic impacts in the oil–producing host communities. ;An Overview of Water Ontologies;Short text entity linking;Entity Linking;Data Provenance Tracking;Linked Data Publishing;Utility Sentient Frequent Itemset Mining and Association Rule Mining;Lateral flow (immuno)assay;Factors influencing human comfort;Immobilization of Enzymes;University entrepreneurship categories;Power systems;Workforce Age and Innovation;Energy-economic growth;Power Cycle Testing;Automated wafer-transport systems;Software Project Risks;Facial Landmark Detection;Enterprise resource planning;Energy usage for electric loads;Social Engineering Attacks;Middle-Income Trap;Face Expression Recognition;Skin salt interaction;IQ stability;Image Steganographic Techniques;Production and cost functions;Disaster affected local communities are often excluded from decision making processes that affect their capacities and resilience. Little is known about how data-driven and ICT-supported processes can strengthen local communities' voices in these decision making processes.;simultaneous delineation of retinal pathologies (hard exudates, soft exudates, hemorrhages, microaneurysms);Analyzing a video for requirements elicitation;Effects of a shift from traditional to agile processes in a student project;Keep Stakeholders Focussed with Interactive Video Elements;Electric vehicles noise;    MULTIMODAL SPEECH EMOTION RECOGNITION;Effective Messaging;optimisation of  a three-level data clustering method to  predict  the demand pattern of New York City bikes ;optimisation of a predictive model for hourly rental rates at a  zonal level;Covid-19 detection or diagnosis;Knowledge Gain Prediction;Video Quality Prediction;Web accessibility for visually impaired users;Ontology and Knowledge Graph Visualizations;Information and Cognitive Overload;Semantic representation of scholarly communication;Haptic perception;Big Data infrastructure;Big Earth Data applications;Big Earth Data analysis;Niobium-Based Materials for Photocatalytic Solar Fuel Production;G-Quadruplex Ionic Selectivity;gender;impact of COVID-19 pandemic on academics;research productivity;publication;COVID-19 pandemic;research;Global Mean Sea Level Rise Projections;systematically introduce the existing state-of-the-art approaches and a variety of applications;Sub-pixel mineral investigation using Hyperion data in Rajasthan, India;Finding Information System knowledge, skills, competencies which are required by the Australian employers;Psychotherapeutic Interventions in Cancer;Open Data;How to measure the quality of the Europeana records;Development of wearable sensors;Organic solar cells;Representation Learning;Representation Learning of Scientific Literature;Develop a Capability Model for RDM practices;Learning-based Named Entity Recognition and Classification system;Scientific Document Summarization;Finding important Soft Skills in Software Development;Perceptual pairing effects on word learning;entity linking;required skills for library and information professionals;Lignin decomposition;Developing a framework of scholarly data visualization;extraction of hyponyms from large text;How to define digital heritage interpretation?;Identification of Talc Minerals using Hyperion Hyperspectral data;Information processing in Physarum polycephalum;Effect of dopant type on the characteristics of ZnO-based heterojunction diodes;Identify selected determinants of attractiveness of international academic conferences;Atari Games;Fairness;distinguishing affixoid formations from compounds;Image Classification;Analyzed the factors for Pressure Diuresis and Pressure Natriuresis;Feature extraction from the sensors with limited wavelength range was not accurate and sufficient.;finding trends in required job skills for IT jobs during 17 years;Triple Extraction;Inference performance characterization of neuro-symbolic models;Audio Classification;Land use and cover change (LUCC)					;Temporal Question Answering;AutoML;Text Summarization;Resonant radiation of optical solitons in presence of high-order dispersion;Describing adaptive decision-making in dynamic situations with volatile information, and emerging coordination structures;classifying online job offers against a standard classification system of occupations;Language Modelling;Open Education;Design and implementation of epidemiological surveillance systems;Neural Architecture Search;Influence of light deflection during fringe projection measurements of hot objects; Performance of  fiber optic strain sensors;Machine comprehension;Machine comprehension of text;Open research corpus of scientific papers with metadata;Assessment of soil organic matter using remote sensing;Neural Network Named-Entity Recognition;Neural network approaches to Named-Entity Recognition;Named-Entity Recognition;NER;ICT attitudes in PISA;Clustering Twitter spam from fraudulent accounts;Antiepileptic drugs' safety and effectiveness;Machine Comprehension on Sparse Data;Understanding unstructured text;machine comprehension on the challenging MCTest benchmark;Comprehension of unstructured text by machines , at a near- human level;MC;Spectral angle mapper for Land use Land cover mapping;CSWL and SLCL application in word learning processes;SPARQL query optimization;Dietary patterns and obesity;Machine Translation;Barrier properties of nanocomposite coating;Open access page view advantage;Open access download advantage;Data Quality;Constraint validation;Performance of strain sensors based on 2D materials ;Indicators for a smart city;Smart City's dashboards creation;City dashboards;Standard for city services;Gaze Duration;National viral hepatitis response;hepatitis C health policies;Turkish Lexical Sample Task;Stratigraphy of the Von Karman Crater using Lunar Penetrating Radar Data;N2O gas emission estimation from the Indian Ocean;Activation of C-O bond;Comparison of Spectral angle mapper and object oriented approach for wetlands classification;Network Performance measurement;Designing big Earth data system architecture;Developing big Earth data analytics;Advancing domains using big Earth data;Facilitating the collaboration of big Earth data stakeholders;change detection of urban land use;System organization;Heterogeneity;Pluralism;Technological design;Definition of style;Coreference Resolution;lossless image compression;screen content coding;Multilingual and Code-switching ASR for Indian languages;Ontology learning from Thesauri;Cucurbit[n]uril immobilization approach;Overview of several scholarly databases and their properties;Delineation of limestone using ASTER data;Robust Design Methods;Complex Systems Design;Attacks, revenue model goal and primary component targets in online advertising system;Reading Comprehension;Natural Language Inference;Semantic Textual Similarity;Paraphrase Identification;Humor Detection;Semantic similarity computation performance at sentence- or document-level;Cross-Lingual Document Classification;Rhetorical Annotation;Relevance Selection;COVID-19 Vaccine;data-driven predictive control using input-output data;Chinese Semantic Dependency Parsing;bullying;Ontology learning from source code;How to build a holistic approach for planning of multimedia, virtual, and mixed reality applications based on the concept of “augmented” and multisensory experience, innovative tangible user interfaces, and storytelling techniques?;Speech Dataset for Low-resource Indian Languages;Picophytoplankton abundance estimation in the Ocean;Defining the required skills for Operations Research related jobs;Monitoring of soil organic carbon (SOC);ecological parthenogenesis;Unsupervised Machine Translation;Epidemiological surveillance;Fine-grained Event Classification;comparison of staining effect of Pt-blue + Pb on different structures;comparison of staining effect of 0.2% OTE in 1/15M potassium phosphate buffer on different structures;comparison of staining effect of 0.5% potassium permanganate in 1/15M phosphate buffer on different structures;comparison of staining effect of uranyl acetate on different structures;comparison of staining effect of distilled water with 5% phosphotungstic acid (PTA) on different structures;comparison of staining effect of PB on different structures;Heavy metal pollution of soil and water resources;Linked Data Interoperability;Nitrogen fixation rates estimation in the Pacific Ocean;Concept classification;open hardware development;high speed cameras;Exploring Personal Knowledge Graph Literature;Spam detection in Twitter;Reevaluation of  the maximum concentration at the workplace (MAK value) of 1‑butanethiol;Open access citation advantage;Open access advantage concerning page views and downloads from outside higher education institutions;Estimation of the statistical difference in NEE of C between catch crop treatments;Semantic Representation in Music;Loss Recovery and Rate Control;Knowledge Organization;Social Distance Effects COVID-19 ;Key Information Extraction;Ion pairing effect in heptamethine cyanine dyes;Knowledge Representation;Simulation of tropical convection;Understanding the dependence of tropical convection on the large-scale environment;Using observations to inform model development;Improving the representation of atmospheric convection in general circulation models;how to effectively make use of relevant information while ignoring irrelevant information from the dependency trees;Providing an Ontology-based Information Extraction (OBIE) method for identifying and quantifying skill demands across industry;Learning Analytics;potential inhibitors of SARS-CoV-2 replication;Temporal Information Extraction;knowledge graph population;To estimate total organic carbon, an important source rock characterization parameter, using well logs.;Relationship explanation;Primary production assessment in the euphotic zone of the Indian Ocean;Biochar impact on soil aggregate tesile strength and stability;Neubewertung aller toxikologischen Werte für Ethylamine;Mineralogy of Cuprite hills in Nevada of Unitd states from airborne and spaceborne imageries;Chinese Grammatical Error Diagnosis;Visual Navigation;Actautors fabrication and charecterization, Soft Grippers;Primary production estimation in the Atlantic Ocean;Comparison of drug-drug interaction prediction;DDI prediction;Document Classification;poverty computation;Assembly line balancing problem (ALBP);Optimisation problem;Mixed model workplace assembly line balancing problem (MMWALBP);Optimization problem;Linked Data Integration;Time complexity of group betweenness centrality (GBC) computations;Understanding the pegmatites spectral behavior using Landsat 8 OLI;Link Discovery;learn implicit linguistic features solely from plain text corpora by unsupervised pre-training, before fine-tuning the learned language representations on the relation extraction task;Relation extraction;Prevalence of epilepsy in Europe;Lack of knowlage on staphylococcus pseudintermedius virulence factors;Big Data;Formation of two-frequency pulse compounds;How does the physical affordance of tangible interaction affect the communication of built heritage information?;Iridium-based photoredox catalyst;Analyzing trends in IT jobs;Schädigung durch maximale Konzentration von 2,3-Pentandion am Arbeitsplatz;['Effect of low dietry fiber on Crohn´s disease'];Covid-19_Infectious Disease;hate speech detection;multimodal hate speech detection;Recommender Systems;Cold-start Problem;Healthcare staff shortage;COVID-19;Nursing shortage;Impact of open access on publication volume;Identify factors influencing conference attendance;Representation Learning on Biomedical Data;mixed language in Belarus ;Multimodal information retrieval;Impact of a paper dictionary on vocabulary size growth;Dictionary users' enthusiasm when using dictionary;accelerate open access;transition to open access;collective action;Contextual morphological analysis;Application of Social Linked Data (Solid) to a specific use case;high to low resources language translation;Analyzing metadata of scholarly events;Agricultural mapping using remote sensing data;Knowledge base completion;Web Table Understanding;COVID-19 Diagnosis;Machine Reading;answering Cloze - style queries with respect to a document;Differences in impact between different open access models;Measuring impact of invasive species;Psychodrama psychotherapy;COVID-19 research;Infants' ability to actively seek information from a speaker regarding the referent;Importance of Machine learning in processing the data from Remote sensing sensors;The frequency of obstructive sleep apnea (OSA) in patients with mucopolysaccharidosis (MPS);Robotic Grasping;Synthesis of cobinamide;route-planning under risk;Facial recognition;Determining land use based on mobile call records;Differences between publication costs relative to purchasing power by country;constructing machine learning classifiers based on sets of features;VUV spectroscopy in low pressure plasmas;Composition of clay bearing deposits using MRO CRISM;medication mentions in tweets;How is people's psychological distance related to their attitudes and behavior?;Author name disambiguation;Counterfactual recognition;Recognizing Counterfactual Statements;RCS;Detecting Antecedent and Consequent;DAC;Article processing charges as an obstacle for authors without affiliation to a scientific institution;Optimal sizing and scheduling of hybrid energy systems and microgrids;Theoretical considerations on the performance of nanocantilevers as biosensors;Raman spectral analysis for humite minerals;Prevalence of STEC in New Zealand;Antimicrobial activity;How to connect the scholarly modes of communication and stakeholder-led participatory cultures in difficult heritage?;Application of Hyperspectral remote sensing to Agriculture;Knowledge Graph Completion;Polymer properties;Fast and Accurate Entity Recognition;faster alternative to Bi - LSTMs for NER;democratize large-scale NLP and information extraction while minimizing our environmental footprint;Generating labeled data for duplicate question detection in online cQA forums;duplicate question detection in online cQA forums;Insights into Gully formation on Mars using MRO/CRISM;Impact of open access and development status of countries on citations;testing wether LSTM language models have learned filler–gap dependencies;Knowledge Graph Creation;Knowledge Graph Construction;maternal hypercholesterolemia and atherosclerosis in off spring;Open access advantage concerning mentions in news media;To test the Fundamental Difference Hypothesis;To prove the existence of a Critical period in Second Language Acquisition;Determining whether a review is positive or negative by overall sentiment;Text Classification"
+R32871,119,97,11,1,1,R11,Science,Vessel detection
+R57501,170,73,12,1,1,R24,Ecology and Evolutionary Biology,Testing the biotic resistence hypothesis in invasion biology
+R54867,169,72,14,1,1,R24,Ecology and Evolutionary Biology,Testing the disturbance hypothesis in invasion biology
+R54244,115,66,13,1,1,R24,Ecology and Evolutionary Biology,Testing the phenotypic plasticity hypothesis in invasion biology
+R58002,248,61,14,1,1,R24,Ecology and Evolutionary Biology,Testing the enemy release hypothesis in invasion biology
+R33783,50,49,6,1,1,R11,Science,Neural Network Applications
+R33581,55,47,8,1,1,R11,Science,Supply chain management
+R55219,119,46,12,1,1,R24,Ecology and Evolutionary Biology,Testing the propagule pressure hypothesis in invasion biology
+R56945,208,44,14,1,1,R24,Ecology and Evolutionary Biology,Testing the invasional meltdown hypothesis in invasion biology
+R139050,55,41,9,1,1,R104,Bioinformatics,Biomedical research in  Psychiatric Disorders
+R28099,61,41,20,1,1,R11,Science,Stereo Vision Disparity Map Algorithms
+R28889,51,41,5,1,1,R11,Science,Search-Based Software Engineering
+R30476,171,41,8,1,1,R11,Science,CO2 emissions
+R57101,102,35,12,1,1,R24,Ecology and Evolutionary Biology,Testing the tens rule hypothesis in invasion biology
+R69680,53,34,13,1,5,R133,Artificial Intelligence,Image Recognition;Natural Language Applications;Predictive Machine Learning;Recommender Systems;Rule-based Machine Learning
+R152282,38,31,12,1,1,R374,Urban Studies and Planning,E-government competence 
+R161728,45,30,2,1,1,R137681,"Information Systems, Process and Knowledge Management",digital city twin
+R53407,55,27,13,1,1,R24,Ecology and Evolutionary Biology,"Testing the Darwin's naturalisation hypothesis in invasion biology
+"
+R32189,40,26,7,1,1,R11,Science,Scheduling problems
+R114155,27,25,16,1,1,R140,Software Engineering,Focus of Crowd-based Requirements Engineering
+R52143,33,25,10,1,1,R24,Ecology and Evolutionary Biology,Testing the limiting similarity hypothesis in invasion biology
+R137469,29,24,9,1,1,R114008,Applied Physics,Application relevant atmospheric pressure plasma jets
+R28614,51,23,15,1,1,R11,Science,Embryonal sarcoma of the liver
+R139190,26,22,30,1,1,R185,Plasma and Beam Physics,Diagnostics of high pressure low temperature plasmas.
+R202360,23,22,10,2,2,R112117;R137678,Cryptography and Security;Security and Dependability,security of internet of medical things (IoMT);authentication of Internet of Medical Things (IoMT)
+R204284,23,22,10,2,2,R112117;R137678,Cryptography and Security;Security and Dependability,security of internet of medical things (IoMT);authentication of Internet of Medical Things (IoMT)
+R27835,40,22,15,1,1,R11,Science,Educational Games
+R211935,23,21,87,1,0,R140,Software Engineering,
+R25358,35,21,12,1,1,R11,Science,Fuzzy Service Matching
+R25583,26,21,6,1,1,R11,Science,Model-driven Game Development
+R147040,23,20,25,1,1,R136127,"Ecology and Biodiversity of Animals and Ecosystems, Organismic Interactions",Biodiversity inventories with DNA based-tools
+R26352,29,20,10,1,1,R11,Science,Combined inventory management
+R32541,47,20,8,1,1,R11,Science,Over-education
+R155800,21,19,31,1,1,R136127,"Ecology and Biodiversity of Animals and Ecosystems, Organismic Interactions",Biodiversity inventories with DNA based-tools
+R25857,46,19,8,1,1,R11,Science,Selective Hydrogenation over Supported Metal Catalysts
+R26729,27,19,15,1,1,R11,Science,Sensor networks clustering
+R29351,24,19,5,1,1,R11,Science,Enterprise resource planning
+R33091,37,19,7,1,1,R11,Science,Chromosome 1 abnormalities
+R34605,36,19,5,2,1,R11;R132,Science;Computer Sciences,Anonymisation in social network
+R44930,31,19,15,1,1,R57,Virology,Determination of the COVID-19 basic reproduction number
+R32424,27,18,7,1,1,R11,Science,Oil
+R141593,18,17,13,1,1,R175,"Atomic, Molecular and Optical Physics",VUV spectroscopy in low pressure plasmas
+R141783,18,17,14,1,1,R175,"Atomic, Molecular and Optical Physics",VUV spectroscopy in low pressure plasmas
+R157074,20,17,31,1,1,R136127,"Ecology and Biodiversity of Animals and Ecosystems, Organismic Interactions",Biodiversity inventories with DNA based-tools
+R193505,31,17,16,1,1,R57,Virology,What is the correlation between SARS-CoV-2 viral load and disease severity
+R201972,19,17,12,1,0,R231,Computer and Systems Architecture,
+R25160,19,17,10,1,1,R11,Science,In-Vehicle Light Displays
+R25900,22,17,7,1,1,R11,Science,Selective Hydrogenation over Supported Metal Catalysts
+R26550,45,17,3,1,1,R11,Science,Chitosan and its antimicrobial potential
+R29240,22,17,12,1,1,R11,Science,Enterprise resource planning
+R33953,20,17,6,2,1,R11;R132,Science;Computer Sciences,Ant Colony Optimization
+R112387,19,16,12,1,1,R140,Software Engineering,User feedback classification approaches
+R12251,31,16,28,1,1,R57,Virology,COVID-19 reproductive number
+R142822,18,16,25,1,1,R136127,"Ecology and Biodiversity of Animals and Ecosystems, Organismic Interactions",Biodiversity inventories with DNA based-tools
+R161729,24,16,6,1,1,R137681,"Information Systems, Process and Knowledge Management",digital city twin
+R165700,21,16,72,2,15,R145261;R322,Natural Language Processing;Computational Linguistics,"Bacteria Biotope (BB) relation extraction;Seed development (SeeDev) relation extraction;Dependency structure parsing;Named Entity Recognition;Pharmacological substances, compounds and proteins named entity recognition;Capturing function changes of mutated genes in a pathogenic context;Biomolecular event extraction;Cancer genetics (CG) event extraction;Genia event extraction (GE) task;Epigenetics and Post-translational Modifications (EPI) event extraction;Infectious Diseases (ID) event extraction;Bacteria gene renaming;Bacteria genetic interaction extraction;Biomolecular pathway curation;Genic regulation network (GRN) extraction"
+R25726,21,16,12,2,1,R136;R11,Graphics;Science,Data Visualization
+R31669,92,16,7,1,1,R11,Science,Chemical process systems
+R46296,31,16,5,1,1,R122,Chemistry,TiO2 Photocatalysis
+R140347,19,15,25,1,1,R136127,"Ecology and Biodiversity of Animals and Ecosystems, Organismic Interactions",Biodiversity inventories with DNA based-tools
+R164670,21,15,72,2,15,R145261;R322,Natural Language Processing;Computational Linguistics,"Bacteria Biotope (BB) relation extraction;Seed development (SeeDev) relation extraction;Dependency structure parsing;Named Entity Recognition;Pharmacological substances, compounds and proteins named entity recognition;Capturing function changes of mutated genes in a pathogenic context;Biomolecular event extraction;Cancer genetics (CG) event extraction;Genia event extraction (GE) task;Epigenetics and Post-translational Modifications (EPI) event extraction;Infectious Diseases (ID) event extraction;Bacteria gene renaming;Bacteria genetic interaction extraction;Biomolecular pathway curation;Genic regulation network (GRN) extraction"
+R193278,18,15,7,1,1,R112130,Networking and Internet Architecture,BGP Security Solution
+R211056,69,15,13,1,1,R57,Virology,What is the tropism of SARS-CoV-2
+R214198,21,15,10,1,0,R112117,Cryptography and Security,
+R214201,21,15,10,1,0,R112117,Cryptography and Security,
+R214208,21,15,10,1,0,R112117,Cryptography and Security,
+R30646,37,15,8,1,1,R11,Science,Eye localization
+R141752,19,14,14,1,1,R374,Urban Studies and Planning,Smart cities
+R141782,21,14,14,1,1,R374,Urban Studies and Planning,Smart cities
+R163742,18,14,102,1,14,R145261,Natural Language Processing,Seed regulatory network extraction task;Bacteria biotope (BB) task;Genia event extraction (GE) task;Structural Annotation (SA) Task;Ontological Concept Recognition;Coreference Resolution;chemical and drug named entity recognition;active gene annotation for drug repurposing;RDoC construct information retrieval;Biomolecular event extraction;The Epigenetics and Post-translational Modifications (EPI) task;Infectious Diseases (ID) information extraction task;Cancer genetics (CG) event extraction;Pathway Curation (PC) task
+R189691,19,14,9,1,1,R254,Materials Science and Engineering,Mechanical properties of nacre-inspired materials
+R199196,19,14,9,1,1,R254,Materials Science and Engineering,Mechanical properties of nacre-inspired materials
+R204005,26,14,23,1,1,R57,Virology,Do human noroviruses infect animals
+R210471,14,14,8,1,1,R254,Materials Science and Engineering,Mechanical properties of nacre-inspired materials
+R29080,17,14,7,1,1,R11,Science,Facial Landmark Detection
+R30512,17,14,8,1,1,R11,Science,Physical activity coaching systems
+R34099,50,14,7,1,1,R11,Science,Salinity markers
+R34183,32,14,9,1,1,R11,Science,Genetically Modified Crops
+R6947,16,14,8,1,1,R133,Artificial Intelligence,Automatic text summarization
+R141425,18,13,5,1,1,R67,Medicinal Chemistry and Pharmaceutics,The role of nanotechnology in COVID-19 outbreak
+R145685,19,13,8,1,1,R185,Plasma and Beam Physics,Spectral lines broadening in plasmas
+R162329,17,13,13,1,1,R114008,Applied Physics,X-ray laser advances and applications
+R25999,18,13,8,1,1,R11,Science,Document Structure Analysis Algorithms
+R26654,14,13,11,1,1,R11,Science,Sensor networks clustering
+R31725,17,13,25,1,1,R11,Science,Design Patterns for Software Quality
+R33008,18,13,7,1,1,R11,Science,Chromosome 1 abnormalities
+R140348,15,12,23,1,12,R112125,Machine Learning,Knowledge Graph Embeddings;Multi-relational Representation Learning;Knowledge Graph Completion;Knowledge Graph Embedding;Ontology Embedding;Ontology Population;Representation Learning on Biomedical Data;Ontology knowledge injection;Answering First-Order Logic Queries;Multi-hop Question Answering;Graph Representation Learning;Learning Network Representations
+R146851,32,12,53,1,1,R278,Information Science,Design and implementation of epidemiological surveillance systems
+R155621,30,12,12,1,4,R67,Medicinal Chemistry and Pharmaceutics,Cyclodextrin complexes to enhance drug solubilty or bioavailabilty;Ocular drug delivery;Nasal drug delivery;Pulmonary drug delivery
+R162574,21,12,24,1,21,R145261,Natural Language Processing,gene name finding;gene name normalization;concept-recognition;text retrieval;Gene/Protein NER;Species/Organism NER;Gene/Protein Normalization;Protein-Protein Interaction Passage Identification;Gene Interaction Passage Identification;Protein-protein Evidence Passage Identification;Visual Tool Building;chemical-disease relation (CDR) extraction;disease named entity recognition (DNER);chemical-induced disease (CID) relation extraction;automatically constructing causal biological networks from text;utility and usability of Text Mining tools;text-mining services for kinome curation;automatic extraction of complex Biological expression language relationships;retrieving and extracting precision medicine-relevant information from PubMed articles;chemical compound named entity recognition;multi-label topic classification
+R162575,21,12,24,1,21,R145261,Natural Language Processing,gene name finding;gene name normalization;concept-recognition;text retrieval;Gene/Protein NER;Species/Organism NER;Gene/Protein Normalization;Protein-Protein Interaction Passage Identification;Gene Interaction Passage Identification;Protein-protein Evidence Passage Identification;Visual Tool Building;chemical-disease relation (CDR) extraction;disease named entity recognition (DNER);chemical-induced disease (CID) relation extraction;automatically constructing causal biological networks from text;utility and usability of Text Mining tools;text-mining services for kinome curation;automatic extraction of complex Biological expression language relationships;retrieving and extracting precision medicine-relevant information from PubMed articles;chemical compound named entity recognition;multi-label topic classification
+R204130,14,12,8,1,1,R112117,Cryptography and Security,Software-Defined Networking Security 
+R209290,14,12,19,1,0,R231,Computer and Systems Architecture,
+R25093,14,12,5,1,1,R11,Science,Personality Recognition from Online Social Networks
+R26017,17,12,8,1,1,R11,Science,Document Structure Analysis Algorithms
+R26421,21,12,3,1,1,R11,Science,Chitosan and its antimicrobial potential
+R27235,42,12,5,1,1,R11,Science,Exchange rate volatility
+R28333,37,12,6,1,1,R11,Science,Network optimization
+R36153,25,12,23,1,1,R57,Virology,COVID-19 reproductive number
+R46295,15,12,52,1,1,R122,Chemistry,TiO2 Photocatalysis
+R6756,19,12,14,2,1,R136;R11,Graphics;Science,Graph-based visualization systems
+R150058,16,11,108,2,26,R145261;R133,Natural Language Processing;Artificial Intelligence,"Semantic Relation Extraction and Classification;Extracting Key Aspects of Scientific Papers;Information Extraction;Scientific Concept Extraction;Scientific entity resolution;Scientific entity linking;Scientific entity extraction;Scientific entity classification;Scientific entity typing;Language resource;Document-Level Information Extraction;N-ary relation identification from scientific articles;salient entity identification;Automatic leaderboard construction;Identifying scientific methods and datasets in text;Domain-specific named entity recognition;Identifying and categorizing mentions of concepts;Keyphrase Identification;Identifying and classifying entities, relations, and coreference clusters;relation extraction;Entity extraction;conference extraction;Knowledge Organization;Knowledge Graph Creation from Natural Language Text;Scholarly Knowledge Graph Creation from Scholarly Articles;Concept classification"
+R163265,17,11,87,4,8,R322;R104;R136138;R145261,Computational Linguistics;Bioinformatics;Medical Informatics and Medical Bioinformatics;Natural Language Processing,Scientific concept annotation;Language resource;Medical concept extraction;Medical Assertion Extraction;Medical Relation Extraction;Protein tagging;Scientific Concept Extraction;Biomedical named entity recognition
+R165916,11,11,12,2,10,R145261;R322,Natural Language Processing;Computational Linguistics,Bacteria Biotope (BB) relation extraction;Dependency structure parsing;Seed development binary relation extraction;Thematic relation identification on Active Gene Annotation;Establishing equivalent entities;Localization and PartOf relation extraction;Gene interaction relation extraction;Equivalence relation extraction;Gene regulation network relation extraction;Bacteria biotope relation extraction
+R182358,17,11,30,1,2,R133,Artificial Intelligence,Construction of calorie-annotated food photo dataset;Construction of food photo dataset
+R184018,13,11,13,1,1,R93,Human and Clinical Nutrition,Correlation between crop diversity and dietary diversity
+R204080,17,11,5,1,1,R112125,Machine Learning,Privacy-preserving Deep Learning (PPDL) for Machine Learning as a Service (MLaaS) 
+R25629,18,11,4,1,1,R11,Science,Agile Usage
+R27039,21,11,6,1,1,R11,Science,Fleet composition and routing
+R27380,37,11,5,1,1,R11,Science,Residual stresses during fatigue
+R29012,15,11,7,1,1,R11,Science,Facial Landmark Detection
+R29153,12,11,11,2,1,R11;R302,Science;Economics,Enterprise resource planning
+R30698,14,11,5,1,1,R11,Science,Oral dental erosion
+R34251,20,11,6,1,1,R11,Science,African monetary unions
+R34282,15,11,6,1,1,R11,Science,African monetary unions
+R34845,26,11,8,1,1,R11,Science,Eggshell thickness erosion
+R38484,18,11,90,2,2,R145;R142,Environmental Sciences;Earth Sciences,CMIP5;Global climate modelling
+R139642,12,10,8,1,1,R194,Engineering,Improving the efficiency of perovskite solar cells
+R146458,16,10,18,1,1,R374,Urban Studies and Planning,Smart city digital transformation
+R149849,10,10,25,1,1,R136127,"Ecology and Biodiversity of Animals and Ecosystems, Organismic Interactions",Biodiversity inventories with DNA based-tools
+R150570,16,10,86,3,7,R322;R104;R136138,Computational Linguistics;Bioinformatics;Medical Informatics and Medical Bioinformatics,Scientific concept annotation;Language resource;Medical concept extraction;Medical Assertion Extraction;Medical Relation Extraction;Protein tagging;Scientific Concept Extraction
+R155101,10,10,16,1,1,R185,Plasma and Beam Physics,X-ray laser physics
+R157326,14,10,19,1,1,R185,Plasma and Beam Physics,X-ray laser physics
+R159398,35,10,12,1,1,R374,Urban Studies and Planning,digital twin
+R159490,35,10,12,1,1,R374,Urban Studies and Planning,digital twin
+R166240,12,10,34,1,2,R145261,Natural Language Processing,Multilingual named entity recognition;Named Entity Recognition
+R190010,12,10,44,2,1,R112117;R137678,Cryptography and Security;Security and Dependability,CAN BUS Intrusion Detection
+R191054,22,10,14,1,1,R57,Virology,Determine the association of gastrointestinal symptoms with the clinical outcomes in COVID-19 patients
+R201802,12,10,44,2,1,R112117;R137678,Cryptography and Security;Security and Dependability,CAN BUS Intrusion Detection
+R203903,12,10,13,2,1,R112117;R137678,Cryptography and Security;Security and Dependability,intrusion detection for Wireless Sensor Networks (WSN)
+R204164,12,10,13,2,1,R112117;R137678,Cryptography and Security;Security and Dependability,intrusion detection for Wireless Sensor Networks (WSN)
+R204209,11,10,7,1,1,R112117,Cryptography and Security,Blockchain-based Access Management
+R212405,13,10,7,1,1,R272,"Operations Research, Systems Engineering and Industrial Engineering",knowledge graphs and Industrie 4.0
+R215025,18,10,14,1,0,R57,Virology,
+R25201,14,10,4,1,1,R11,Science,Automatic Signature Verification
+R25495,23,10,5,1,1,R11,Science,Blood Glucose Monitoring
+R25529,16,10,6,1,1,R11,Science,Crowdfunding for Extracting Feedback
+R26063,22,10,15,1,1,R11,Science,Adhesively bonded joints
+R30579,12,10,10,1,1,R11,Science,Security Challenges in Vehicle Ad-hoc Networks
+R30817,40,10,7,1,1,R11,Science,Disaster management
+R31160,40,10,5,1,1,R11,Science,Disaster management
+R32061,11,10,5,1,1,R11,Science,Domain Adaptation Algorithms
+R34411,27,10,12,1,1,R11,Science,Clostridium difficile infection
+R56110,17,10,11,1,1,R24,Ecology and Evolutionary Biology,Testing the island susceptibility hypothesis in invasion biology
+R6757,17,10,12,1,1,R133,Artificial Intelligence,Question answering systems
+R6948,16,10,8,1,1,R133,Artificial Intelligence,Automatic text summarization
+R108331,10,9,14,1,1,R134,Computer and Systems Architecture,Enterprise engineering
+R108332,10,9,14,1,1,R134,Computer and Systems Architecture,Enterprise engineering
+R12250,13,9,9,1,1,R57,Virology,COVID-19 reproductive number
+R140543,13,9,14,1,1,R123,Analytical Chemistry,Chemical sensors
+R141156,10,9,11,1,1,R194,Engineering,Development of microelectromechanical systems (MEMS) switches
+R149847,11,9,25,1,1,R136127,"Ecology and Biodiversity of Animals and Ecosystems, Organismic Interactions",Biodiversity inventories with DNA based-tools
+R165866,18,9,41,1,17,R145261,Natural Language Processing,Bacteria Biotope (BB) event extraction;Event extraction on molecular biology of plants;Genia event extraction (GE) task;Genia event enrichment task;Genia event modification extraction task;Event Extraction on Infectious Diseases;Infectious Diseases Event Modification;Biomolecular event extraction with primary arguments only;Biomolecular event enrichment with secondary arguments;Negation or speculation detection around extracted biomolecular events;Event extraction on Epigenetics and Post-translational Modifications (EPI);Epigenetics and Post-translational Modifications (EPI) Event Modification;Event extraction on Cancer Genetics;Cancer genetics event modification;Biomolecular pathway event extraction;Biomolecular pathway event modification;extracting information on molecular interactions between genes and proteins
+R191407,10,9,11,1,1,R373,Science and Technology Studies,Misinformation & Fake News
+R197259,21,9,17,1,1,R57,Virology,What is the tropism of human norovirus
+R198562,12,9,21,3,0,R32;R24;R66,Environmental Health;Ecology and Evolutionary Biology,
+R199173,12,9,14,1,1,R112125,Machine Learning,AutoML
+R209929,12,9,10,1,0,R231,Computer and Systems Architecture,
+R213302,20,9,17,1,1,R373,Science and Technology Studies,Misinformation & Fake News
+R25255,15,9,13,1,1,R11,Science,Arabic Opinion Mining
+R25447,15,9,6,1,1,R11,Science,Web Service  Reliability
+R26262,21,9,10,1,1,R11,Science,Combined inventory management
+R26608,14,9,3,1,1,R11,Science,Sensor networks clustering
+R26775,14,9,15,1,1,R11,Science,Sensor networks clustering
+R29034,12,9,5,1,1,R11,Science,Facial Landmark Detection
+R41148,16,9,8,2,1,R122;R126,Chemistry;Materials Chemistry,Silicon electrochemistry 
+R44978,15,9,11,1,1,R354,Sociology,Psychotherapy for Depression
+R68871,14,9,26,1,2,R145,Environmental Sciences,CMIP5;Global climate modelling
+R139551,10,8,25,1,1,R136127,"Ecology and Biodiversity of Animals and Ecosystems, Organismic Interactions",Biodiversity inventories with DNA based-tools
+R139585,21,8,20,5,1,R356;R351;R358;R353;R310,"Family, Life Course, and Society;Industrial and Organizational Psychology;Inequality and Stratification;Social Psychology;Labor Economics",Effect of the COVID-19 pandemic on well-being
+R140465,10,8,25,1,1,R136127,"Ecology and Biodiversity of Animals and Ecosystems, Organismic Interactions",Biodiversity inventories with DNA based-tools
+R191984,10,8,11,1,0,R112117,Cryptography and Security,
+R199176,13,8,30,1,8,R141823,Semantic Web,"Methodologies, methods and tools for ontology construction;Methodologies, methods and tools for food ontology construction;Fast food ontology construction;Construction of food ontology for diabetes;Construction of cooking ontology;Associating food intake to metabolic data;Food traceability;Construction of food traceability ontology"
+R199177,13,8,16,1,13,R141823,Semantic Web,Food recommendation;Nutrition and activity for healthy living;Automated food recommendation;Food recommendation to diabetes patients;Food recommendation to type 2 diabetes;Choice of food by diabetic patient;Define the relationships between nutritional and metabolomics data;analysis and integration of food data with metabolic data;Describe food and their associated metabolic biomarkers;Food traceability;Analysis of nutritional content from fast food ;Analysis of nutritional content of food;Food or menu planning
+R201263,10,8,7,1,1,R254,Materials Science and Engineering,Mechanical properties of nacre-inspired materials
+R202361,12,8,8,1,0,R231,Computer and Systems Architecture,
+R202362,12,8,8,1,0,R231,Computer and Systems Architecture,
+R25223,10,8,4,1,1,R11,Science,Content Distribution in P2P Networks
+R25663,16,8,5,1,1,R11,Science,Warehouse Picking Systems acceptance
+R25762,17,8,7,1,1,R11,Science,Utility Sentient Frequent Itemset Mining and Association Rule Mining
+R26194,10,8,9,1,1,R11,Science,Combined inventory management
+R26377,13,8,5,1,1,R11,Science,Combined inventory management
+R28407,14,8,5,1,1,R11,Science,Network optimization
+R30739,18,8,5,1,1,R11,Science,Oral dental erosion
+R30914,35,8,6,1,1,R11,Science,Disaster management
+R30950,35,8,6,1,1,R11,Science,Disaster management
+R31077,37,8,5,1,1,R11,Science,Disaster management
+R31689,10,8,13,1,1,R11,Science,Active learning
+R32914,21,8,30,1,1,R11,Science,Information in Public Sector
+R34126,10,8,11,1,1,R11,Science,Multiple sclerosis
+R70287,38,8,42,1,14,R57,Virology,"Identification of inhibitors of SARS-CoV-2;Identification of antiviral drug candidates against SARS-CoV-2;inhibitors of SARS-CoV-2 replication;potential inhibitors of SARS-CoV-2 replication;anti-coronaviral activity of FDA approved drugs against SARS-CoV-2 in vitro and SARS-CoV in vivo;Reduction of weight loss in SARS-CoV (MA15) infected mice;CC50 determination at MOI 0.01 using CellTiter- Glo (CTG) assay, performed 3 days post-infection in Vero E6 cells;Reduction of viral mRNA (RdRp and N) in SARS-CoV-2 infected Vero E6 cells;IC50 determination at MOI 0.01 using CellTiter- Glo (CTG) assay, performed 3 days post-infection in SARS-CoV-2 infected Vero E6 cells;Inhibition of SARS-CoV-2 pseudoparticle entry in Huh-7 cells;Inhibition of SARS-CoV-2 pseudoparticle entry in human lung Airway Chip at reported drug Cmax;Inhibition of SARS-CoV PL-pro;Antiviral activity against SARS-CoV-2 measured by imaging in Vero cells;Antiviral activity against SARS coronavirus in african green monkey Vero E6 cells"
+R70584,11,8,17,1,0,R11,Science,
+R70630,12,8,12,1,0,R11,Science,
+R70640,12,8,12,1,0,R11,Science,
+R70642,11,8,17,1,0,R11,Science,
+R77162,21,8,20,5,1,R356;R351;R358;R353;R310,"Family, Life Course, and Society;Industrial and Organizational Psychology;Inequality and Stratification;Social Psychology;Labor Economics",Effect of the COVID-19 pandemic on well-being
+R77220,21,8,20,5,1,R356;R351;R358;R353;R310,"Family, Life Course, and Society;Industrial and Organizational Psychology;Inequality and Stratification;Social Psychology;Labor Economics",Effect of the COVID-19 pandemic on well-being
+R78492,21,8,20,5,1,R356;R351;R358;R353;R310,"Family, Life Course, and Society;Industrial and Organizational Psychology;Inequality and Stratification;Social Psychology;Labor Economics",Effect of the COVID-19 pandemic on well-being
+R140131,10,7,25,3,5,R417;R135;R137681,"Cultural History;Databases/Information Systems;Information Systems, Process and Knowledge Management",What is the tole of conservation of cultural heritage in the progres towards UN Development Goals?;developing an energy efficiency solution for a historicaal building;What are the reasons for the weak substantiation of cultural heritage in smart city strategies?;What smart cities technologies are used in the cultural heritage domain?;Contributions of smart cities technologies to cultural heritage documentation and services 
+R152186,10,7,12,1,1,R185,Plasma and Beam Physics,X-ray laser physics
+R164231,10,7,68,2,6,R322;R145261,Computational Linguistics;Natural Language Processing,Scientific concept annotation;Language resource;Syntax Annotation;Part-Of-Speech Tagging;Relation Extraction;Coreference Resolution
+R165702,29,7,31,2,26,R145261;R322,Natural Language Processing;Computational Linguistics,Bacteria named entity recognition;Habitat named entity recognition;Bacteria Biotope (BB) named entity recognition;Concept annotation to ChEBI ontology;Concept annotation to ChEBI_EXT ontology;Concept annotation to Cell Ontology;Concept annotation to Cell_EXT Ontology;Concept annotation to Biological Process subontology of the Gene Ontology;Concept annotation to the extended Biological Process subontology of the Gene Ontology;Concept annotation to the cellular component subontology of the Gene ontology;Concept annotation to the extended Cellular Component subontology of the Gene ontology;Concept annotation to the Molecular Function subontology of the Gene Ontology;Concept annotation to the extended Molecular Function subontology of the Gene ontology;Concept annotation to the Molecular Process (MOP) ontology;Concept annotation to the extended Molecular Process (MOP) ontology;Concept annotation to the NCBI Taxonomy (NCBITaxon);Concept annotation to the extended NCBI Taxonomy (NCBITaxon_EXT);Concept annotation to the Protein Ontology;Concept annotation to the extended Protein Ontology;Concept annotation to the UBERON ontology;Concept annotation to the extended UBERON ontology;Concept annotation to the Sequence Ontology;Concept annotation to the extended Sequence Ontology;Chemical/drug named entity recognition in Spanish medical documents;Named entity recognition based on the AGAC ontology;Location named entity recognition
+R193700,10,7,5,1,1,R272,"Operations Research, Systems Engineering and Industrial Engineering",Supply chain
+R206242,20,7,18,1,0,R32,Environmental Health,
+R207120,10,7,105,1,3,R373,Science and Technology Studies,Misinformation & Fake News;Social Netwrok Security and Privacy;COVID-19 Fake News Detection
+R212902,14,7,30,2,0,R230;R374,Computer Engineering;Urban Studies and Planning,
+R213136,14,7,22,1,1,R112117,Cryptography and Security,intrusion detection for smart cities
+R214164,14,7,30,2,0,R230;R374,Computer Engineering;Urban Studies and Planning,
+R25400,11,7,5,1,1,R11,Science,Software Traceability Approaches
+R33851,10,7,11,1,1,R11,Science,Copy number variations Calling Algorithms
+R34316,10,7,6,1,1,R11,Science,African monetary unions
+R34454,11,7,5,1,1,R11,Science,Facial Expression Recognition
+R34706,12,7,6,1,1,R11,Science,Load Balancing Schemes in Cloud Computing
+R48392,12,7,9,1,1,R169,Climate,Global Mean Sea Level Rise Projections
+R108358,12,6,49,1,7,R146,Geology,"There was an scarcity of current hyperspectral datasets/sensors to map minerals. ;All the other available hyperspectral datasets either dont have larger swath or a global coverage.;Spectral analysis and Mixture Tuned Matched Filter technqiues gives satisfactory results in mapping the minerals at Mount Fitton, Australia.;Classificatiom, Data dimemsionality reduction and End member extraction techniques were used to show the potential of AVIRIS (airborne) and Hyperion (spaceborne). Hyperspectral data in mineral mapping.;The spectral absorption feature  extracted from Airborne and Space borne hyperspectral datasets are comapred for talc minerals.;Alteration mineral jones in Rajasthan, India are mapped using band ratios, End members from ASTER multispectral datasets.;AVIRIS airborne hyperspectral datasets are used for the identification of carbonates, silicates , mafic cumulates  and  chromitites using various band ratioing algroithms."
+R109612,10,6,17,1,4,R172,Oceanography,Biological nitrogen fixation assessment in the Arabian Sea;Biological nitrogen fixation assessment during blooming period in the Arabian Sea;Biological nitrogen fixation assessment in the Indian Ocean;Biological nitrogen fixation assessment in the Bay of Bengal
+R145950,15,6,25,1,1,R374,Urban Studies and Planning,Smart city ontology
+R145951,15,6,22,1,1,R374,Urban Studies and Planning,Smart city ontology
+R154289,12,6,9,1,1,R145261,Natural Language Processing,Question Answering 
+R191976,18,6,13,1,1,R114010,Atomic Physics, Xray spectroscopy of  highly ionized atoms
+R196613,11,6,7,1,0,R145261,Natural Language Processing,
+R206258,16,6,19,1,0,R32,Environmental Health,
+R214222,135,6,167,3,2,R135;R278;R141823,Databases/Information Systems;Information Science;Semantic Web,SPARQL query optimization;SPARQL query 
+R214230,135,6,167,3,2,R135;R278;R141823,Databases/Information Systems;Information Science;Semantic Web,SPARQL query optimization;SPARQL query 
+R214403,135,6,167,3,2,R135;R278;R141823,Databases/Information Systems;Information Science;Semantic Web,SPARQL query optimization;SPARQL query 
+R215000,142,6,167,3,2,R135;R278;R141823,Databases/Information Systems;Information Science;Semantic Web,SPARQL query optimization;SPARQL query 
+R215008,142,6,167,3,2,R135;R278;R141823,Databases/Information Systems;Information Science;Semantic Web,SPARQL query optimization;SPARQL query 
+R25115,10,6,8,1,1,R11,Science,Participatory Design evaluations
+R26107,12,6,6,1,1,R11,Science,Factors influencing human comfort
+R28140,12,6,8,1,1,R11,Science,Epidemiology and pathology of gangliocytic paraganglioma
+R29184,10,6,7,1,1,R11,Science,Enterprise resource planning
+R48401,11,6,9,1,1,R169,Climate,Global Mean Sea Level Rise Projections
+R70605,10,6,34,1,0,R11,Science,
+R70632,10,6,34,1,0,R11,Science,
+R70633,10,6,34,1,0,R11,Science,
+R76783,12,6,5,1,6,R369,"Theory, Knowledge and Science",KG embedding survey approaches and application; comprehensive survey on KG embedding models;review the recent advances in representation learning for dynamic graphs;fundamental about knowledge graphs; finding the primary studies in the existing literature;knowledge graph refinement approaches
+R76785,12,6,5,1,6,R369,"Theory, Knowledge and Science",KG embedding survey approaches and application; comprehensive survey on KG embedding models;review the recent advances in representation learning for dynamic graphs;fundamental about knowledge graphs; finding the primary studies in the existing literature;knowledge graph refinement approaches
+R111045,10,5,8,1,2,R128,Inorganic Chemistry,Rare-earth complexes and their application;Rare-earth complexes and their applications
+R139526,10,5,11,1,0,R272,"Operations Research, Systems Engineering and Industrial Engineering",
+R139567,12,5,20,2,2,R133;R112127,Artificial Intelligence;Multiagent Systems,Recommender systems for Smart city;Intelligent systems for Smart city
+R141699,13,5,10,1,1,R194,Engineering,Performance of gas sensors based on ZnO nanostructures
+R141780,10,5,11,1,1,R126,Materials Chemistry,Nanothermometer
+R148381,11,5,16,1,1,R67,Medicinal Chemistry and Pharmaceutics,Drug delivery across the blood brain barrier
+R151435,10,5,9,1,1,R279,Nanoscience and Nanotechnology,Development of biosensors based on nanomaterials 
+R160742,11,5,20,1,1,R172,Oceanography,CO2 flux estimation of the ocean
+R160847,21,5,5,1,1,R67,Medicinal Chemistry and Pharmaceutics,Hot melt extrusion for poorly soluble drugs
+R172155,10,5,30,1,6,R145261,Natural Language Processing,"disease named entity recognition (DNER);Gene or Protein Named Entitiy Recognition;Gene ontology term extraction;provide Web Services for gene/protein, chemical, disease, and/or CTD chemical/gene-specific action term named-entity recognition (NER);detect mentions of chemical com- pounds and genes/proteins in running patent text;identify mentions of gene and protein related objects"
+R172689,10,5,52,1,2,R137654,Mechanical Process Engineering,Lifespan of bearings with various material combinations;Application and forming of hard material coatings 
+R172886,10,5,52,1,2,R137654,Mechanical Process Engineering,Lifespan of bearings with various material combinations;Application and forming of hard material coatings 
+R172927,10,5,52,1,2,R137654,Mechanical Process Engineering,Lifespan of bearings with various material combinations;Application and forming of hard material coatings 
+R175013,10,5,52,1,2,R137654,Mechanical Process Engineering,Lifespan of bearings with various material combinations;Application and forming of hard material coatings 
+R175019,10,5,52,1,2,R137654,Mechanical Process Engineering,Lifespan of bearings with various material combinations;Application and forming of hard material coatings 
+R175409,10,5,52,1,2,R137654,Mechanical Process Engineering,Lifespan of bearings with various material combinations;Application and forming of hard material coatings 
+R186184,10,5,52,1,2,R137654,Mechanical Process Engineering,Lifespan of bearings with various material combinations;Application and forming of hard material coatings 
+R187049,10,5,52,1,2,R137654,Mechanical Process Engineering,Lifespan of bearings with various material combinations;Application and forming of hard material coatings 
+R199178,10,5,43,1,5,R141823,Semantic Web,Food recommendation;Ontology integration;Content recommendation;Food counseling;Inspection of interrelationship between foods and biomarkers
+R200035,11,5,20,1,1,R57,Virology,Can animal noroviruses infect humans?
+R202077,10,5,25,1,1,R145,Environmental Sciences,Estimation of the SOC
+R210410,15,5,6,1,1,R137678,Security and Dependability,Defense mechanisms against DDoS attacks in a cloud computing environment
+R214162,107,5,142,2,2,R135;R141823,Databases/Information Systems;Semantic Web,SPARQL query optimization;SPARQL query 
+R25694,11,5,15,2,1,R136;R11,Graphics;Science,Data Visualization
+R26850,29,5,5,1,1,R11,Science,Fleet composition and routing
+R26918,12,5,5,1,1,R11,Science,Fleet composition and routing
+R27061,10,5,5,1,1,R11,Science,Smart cities
+R27705,33,5,8,1,1,R11,Science,Energy-economic growth
+R28191,13,5,6,1,1,R11,Science,Network optimization
+R31214,11,5,12,1,1,R11,Science,Population genetic algorithms
+R31809,17,5,8,1,1,R11,Science,Cytosine methylation in plants
+R32940,12,5,28,1,1,R11,Science,Treatment with corticosteroids
+R6755,11,5,13,1,1,R136,Graphics,Generic visualization systems
+R109904,12,4,4,1,1,R278,Information Science,Social Networks
+R139972,10,4,13,1,1,R194,Engineering,Thermal accelerometers performance enhancements 
+R144512,10,4,15,1,1,R67,Medicinal Chemistry and Pharmaceutics,PLGA-based nanoparticles for drug delivery to the brain
+R185262,14,4,13,1,1,R175,"Atomic, Molecular and Optical Physics", Xray spectroscopy of  highly ionized atoms
+R185267,14,4,13,1,1,R175,"Atomic, Molecular and Optical Physics", Xray spectroscopy of  highly ionized atoms
+R191658,14,4,13,1,1,R175,"Atomic, Molecular and Optical Physics", Xray spectroscopy of  highly ionized atoms
+R206309,14,4,26,1,0,R231,Computer and Systems Architecture,
+R212903,12,4,104,1,3,R373,Science and Technology Studies,Misinformation & Fake News;Social Netwrok Security and Privacy;COVID-19 Fake News Detection
+R26982,17,4,5,1,1,R11,Science,Fleet composition and routing
+R28369,12,4,5,1,1,R11,Science,Network optimization
+R31281,10,4,6,1,1,R11,Science,Middle-Income Trap
+R46299,10,4,6,1,1,R122,Chemistry,Niobium-Based Materials for Photocatalytic Solar Fuel Production
+R138127,11,3,29,1,4,R67,Medicinal Chemistry and Pharmaceutics,Brain tumor;Polymeric nanoparticles for cancer treatment;Liver cancer;Cervical cancer
+R142850,11,3,11,1,1,R67,Medicinal Chemistry and Pharmaceutics,Nanocrystals for cancer treatment
+R144121,10,3,57,1,1,R141823,Semantic Web,Ontology learning from Folkosonomies
+R187060,12,3,29,1,2,R33,Epidemiology,Covid-19 Pandemic Ontology Development;Covid-19 Pandemic Vaccine Ontology Development
+R191655,12,3,29,1,2,R33,Epidemiology,Covid-19 Pandemic Ontology Development;Covid-19 Pandemic Vaccine Ontology Development
+R191656,12,3,29,1,2,R33,Epidemiology,Covid-19 Pandemic Ontology Development;Covid-19 Pandemic Vaccine Ontology Development
+R193945,12,3,29,1,2,R33,Epidemiology,Covid-19 Pandemic Ontology Development;Covid-19 Pandemic Vaccine Ontology Development
+R197375,10,3,23,1,1,R24,Ecology and Evolutionary Biology,Effect of COVID-19 pandemic on wildlife-vehicle collisions (WVC)
+R210137,21,3,6,1,1,R137678,Security and Dependability,Defense mechanisms against DDoS attacks in a cloud computing environment
+R210531,10,3,6,1,1,R137678,Security and Dependability,Defense mechanisms against DDoS attacks in a cloud computing environment
+R212544,11,3,9,1,2,R272,"Operations Research, Systems Engineering and Industrial Engineering",Closed-loop supply chain;forward supply chain
+R213443,65,3,134,2,2,R135;R278,Databases/Information Systems;Information Science,SPARQL query optimization;SPARQL query 
+R26146,10,3,12,1,1,R11,Science,Informal sector
+R28235,14,3,7,1,1,R11,Science,Network optimization
+R28446,12,3,5,1,1,R11,Science,Network optimization
+R28487,14,3,5,1,1,R11,Science,Network optimization
+R31928,18,3,5,1,1,R11,Science,Synthetic fuels investments
+R31954,18,3,5,1,1,R11,Science,Synthetic fuels investments
+R31991,34,3,8,1,1,R11,Science,Synthetic fuels investments
+R34663,24,3,11,1,1,R11,Science,Data Completeness in Healthcare
+R41466,11,3,25,1,1,R57,Virology,COVID-19 case fatality rate
+R8342,12,3,29,1,1,R136,Graphics,Scholarly Ontologies
+R141723,12,2,31,2,3,R374;R136187,Urban Studies and Planning;Social Sciences,political economy;Economy growth;Societies progress
+R141747,12,2,31,2,3,R374;R136187,Urban Studies and Planning;Social Sciences,political economy;Economy growth;Societies progress
+R141844,12,2,31,2,3,R374;R136187,Urban Studies and Planning;Social Sciences,political economy;Economy growth;Societies progress
+R151005,14,2,61,1,1,R141823,Semantic Web,Ontology learning from images
+R155804,14,2,61,1,1,R141823,Semantic Web,Ontology learning from images
+R155836,14,2,61,1,1,R141823,Semantic Web,Ontology learning from images
+R182415,33,2,37,1,3,R133,Artificial Intelligence,Food calorie estimation;Regression problem;Food calorie estimation from food image
+R186048,12,2,30,1,1,R141823,Semantic Web,Ontology learning from video
+R186111,11,2,7,1,0,R140,Software Engineering,
+R193565,14,2,17,1,1,R272,"Operations Research, Systems Engineering and Industrial Engineering",Closed-loop supply chain
+R194697,11,2,31,2,1,R145261;R132,Natural Language Processing;Computer Sciences,Representation Learning
+R206187,15,2,31,1,1,R272,"Operations Research, Systems Engineering and Industrial Engineering",Supply chain
+R212457,10,2,77,1,2,R137685,"Urbanism, Spatial Planning, Transportation and Infrastructure Planning, Landscape Planning",Comparative environmental impacts of Internal Combustion Engine Vehicles with Hybrid Vehicles and Electric Vehicles;the impact of the electricity generation mix on carbon emissions from vehicles
+R214266,11,2,37,1,1,R145261,Natural Language Processing,Named Entity Recognition
+R26127,10,2,12,1,1,R11,Science,Informal sector
+R27264,11,2,16,1,1,R11,Science,Robotics Middleware
+R27461,28,2,3,1,1,R11,Science,Refrigerant Evaporators
+R27620,48,2,8,1,1,R11,Science,Energy-economic growth
+R31768,18,2,6,1,1,R11,Science,Contamination in retail meats
+R31878,33,2,7,1,1,R11,Science,Synthetic fuels investments
+R31903,20,2,7,1,1,R11,Science,Synthetic fuels investments
+R32025,27,2,9,1,1,R11,Science,Synthetic fuels investments
+R48103,10,2,6,1,1,R278,Information Science,Hybrid Named Entity Recognition and Classification system
+R68535,32,2,13,1,1,R169,Climate,Projected change of global and annual mean surface air temperature
