@@ -1,5 +1,9 @@
 import os
 import json
+import pickle
+import onnx
+
+import pandas as pd
 
 
 class Writer:
@@ -33,6 +37,12 @@ class Writer:
         with open(output_path, 'w') as file:
             file.write(data)
 
+    @staticmethod
+    @validate_path
+    def write_onnx(model, input_path):
+        with open(input_path, 'wb') as f:
+            f.write(model.SerializeToString())
+
 
 class Reader:
 
@@ -42,3 +52,22 @@ class Reader:
             json_data = json.load(f)
 
         return json_data
+
+    @staticmethod
+    def read_pickle(input_path):
+        with open(input_path, 'rb') as f:
+            loaded_object = pickle.load(f)
+        return loaded_object
+
+    @staticmethod
+    def read_onnx(input_path):
+        return onnx.load(input_path)
+
+    @staticmethod
+    def read_df_from_json(input_path, key=None):
+        json_file = Reader.read_json(input_path)
+
+        if key:
+            return pd.json_normalize(json_file[key])
+
+        return pd.json_normalize(json_file)

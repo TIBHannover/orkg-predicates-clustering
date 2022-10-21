@@ -7,10 +7,10 @@ number_of_papers: 4545
 avg_papers_per_comparison: 15.848024316109422
 min_papers_per_comparison: 2
 max_papers_per_comparison: 1515
-number_of_predicates: 3402
-avg_predicates_per_comparison: 22.52887537993921
+number_of_predicates: 3210
+avg_predicates_per_comparison: 21.25531914893617
 min_predicates_per_comparison: 0
-max_predicates_per_comparison: 177
+max_predicates_per_comparison: 167
 number_of_research_fields: 134
 avg_research_fields_per_comparison: 1.574468085106383
 min_research_fields_per_comparison: 1
@@ -20,6 +20,6 @@ avg_research_problems_per_comparison: 3.60790273556231
 min_research_problems_per_comparison: 0
 max_research_problems_per_comparison: 586
 correlation_papers_fields: 0.9863417253963466
-correlation_papers_predicates: -0.0593570086545347
+correlation_papers_predicates: -0.06053680498234814
 correlation_papers_problems: 0.985460245057127
 correlation_fields_problems: 0.9922431300887177

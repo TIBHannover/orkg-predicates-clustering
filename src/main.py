@@ -1,26 +1,26 @@
 from argparse import ArgumentParser
 
 from src.data import main as data
-from src.models import train, evaluate, predict
+from src.models import convert, evaluate, predict
 
 
 def parse_args():
     parser = ArgumentParser()
 
     parser.add_argument('-t', '--task',
-                        choices=['dataset', 'train', 'evaluate', 'predict'],
+                        choices=['dataset', 'evaluate', 'convert', 'predict'],
                         required=True,
                         help='Indicates the task to be executed. '
                              'dataset: fetches, analyses and splits the dataset. The file paths are fixed. '
-                             'train: trains the provided approach using the provided training set. '
-                             'evaluate: evaluates the provided approach using the provided test set. '
+                             'select:  selects the best model based on the result files under /data/results.'
+                             'convert: converts the selected kmeans model to ONNX format. '
                              'predict: predicts the provided approach using the provided query.'
                         )
 
-    parser.add_argument('-a', '--approach',
-                        choices=['elasticsearch', 'scibert', 'baseline', 'baseline_full'],
+    parser.add_argument('-mp', '--model_path',
+                        type=str,
                         required=False,
-                        help='Indicates the approach to do the task on.'
+                        help='Path to the model to be converted to ONNX format. Required when --task==convert. '
                         )
 
     parser.add_argument('-trainp', '--training_set_path',
@@ -29,10 +29,10 @@ def parse_args():
                         help='Path to training set.'
                         )
 
-    parser.add_argument('-testp', '--test_set_path',
+    parser.add_argument('-cpp', '--comparisons_predicates_path',
                         type=str,
                         required=False,
-                        help='Path to test set.'
+                        help='Path to the comparisons predicates mapping.'
                         )
 
     parser.add_argument('-q', '--query',
@@ -55,8 +55,8 @@ def main():
 
     {
         'dataset': data.main,
-        'train': train.main,
         'evaluate': evaluate.main,
+        'convert': convert.main,
         'predict': predict.main
     }[args.task](args)
 

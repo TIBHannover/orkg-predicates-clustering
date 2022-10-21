@@ -104,8 +104,9 @@ def compare(contribution_ids):
         if predicate_id in predicate_ids:
             continue
 
-        # remove 'P32'
-        if 'has research problem' in predicate_label:
+        # remove 'P32' and 'SAME_AS'
+        if 'has research problem' in predicate_label\
+                or 'same as' in predicate_label:
             continue
 
         predicate_ids.append(predicate_id)
