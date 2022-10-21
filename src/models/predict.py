@@ -73,8 +73,6 @@ def main(config=None):
     model = Reader.read_onnx(args.model_path)
     cluster_label, model_labels_ = predict(model, (embeddings[0], ))
 
-    print(model.metadata_props)
-
     cluster_instances_indices = np.argwhere(cluster_label == model_labels_).squeeze(1)
     cluster_instances = train_df.iloc[cluster_instances_indices]
     comparison_ids = cluster_instances['comparison_id'].unique()
