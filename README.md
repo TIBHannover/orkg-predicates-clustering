@@ -1,4 +1,4 @@
-# ORKG-NLP Service Template
+# ORKG Predicates Clustering
 
 ## Overview
 
